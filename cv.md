@@ -2,20 +2,24 @@
 
 Cringey statement about Borex
 
-### Skills
+## Skills
 
-Writing CHAD GPS prompts
+Writing CHAD GPS prompts, kafka, gitops
 
-### Job History
+## Job History
 
-#### Westpac
+### Westpac - such and such bank
 
-kafka
+#### Responsibilies
 
-k8s
+on-call, kafka
 
-#### Visa
+#### Achievements
 
-#### Healthlink
+BYO agents
 
-#### Two Degrees Mobile
+### Visa
+
+### Healthlink
+
+### Two Degrees Mobile
