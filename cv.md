@@ -10,11 +10,11 @@ Writing CHAD GPS prompts, kafka, gitops
 
 ### Westpac - such and such bank
 
-#### Responsibilies
+**Responsibilies**
 
 on-call, kafka
 
-#### Achievements
+**Achievements**
 
 BYO agents
 
