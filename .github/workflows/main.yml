@@ -3,7 +3,7 @@ name: Convert Markdown to PDF
 on:
   push:
     paths:
-      - 'cv.md'  # Runs the workflow for changes to Markdown files
+      - 'cv.md'  # Triggers the workflow for changes to Markdown files in any directory
 
 jobs:
   convert:
@@ -13,12 +13,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Pandoc
-        uses: docker://pandoc/latex:2.18  # Uses a Docker image with Pandoc and LaTeX
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          sudo apt-get install -y texlive-xetex  # Install LaTeX packages needed for PDF generation
 
       - name: Convert Markdown to PDF
         run: |
-          mkdir pdf
+          mkdir -p pdf  # Ensures the pdf directory exists
           for file in *.md; do
             pandoc "$file" -o "pdf/${file%.md}.pdf"
           done
