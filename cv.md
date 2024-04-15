@@ -2,9 +2,15 @@
 
 ### Skills
 
+Writing CHAD GPS prompts
+
 ### Job History
 
 #### Westpac
+
+kafka
+
+k8s
 
 #### Visa
 
