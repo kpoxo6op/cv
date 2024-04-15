@@ -1,5 +1,7 @@
 # Boris Khasanov
 
+Cringey statement about Borex
+
 ### Skills
 
 Writing CHAD GPS prompts
