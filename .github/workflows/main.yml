@@ -3,7 +3,7 @@ name: Convert Markdown to PDF
 on:
   push:
     paths:
-      - 'cv.md'  # Triggers the workflow for changes to Markdown files in any directory
+      - 'cv.md' # Triggers the workflow only when cv.md is modified
 
 jobs:
   convert:
@@ -20,14 +20,12 @@ jobs:
           sudo apt-get install -y texlive-xetex  # Install LaTeX packages needed for PDF generation
 
       - name: Convert Markdown to PDF
-        run: |
-          mkdir -p pdf  # Ensures the pdf directory exists
-          for file in *.md; do
-            pandoc "$file" -o "pdf/${file%.md}.pdf"
-          done
+        run: pandoc cv.md -o cv.pdf
 
-      - name: Upload PDFs
-        uses: actions/upload-artifact@v3
-        with:
-          name: pdfs
-          path: pdf/
+      - name: Commit and Push PDF
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add cv.pdf
+          git commit -m "Update cv.pdf" || echo "No changes to commit"
+          git push
