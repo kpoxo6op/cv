@@ -1,5 +1,7 @@
 ---
 title: "Boris Khasanov"
+# font no found in github actions
+# mainfont: "Latin Modern Mono Light"
 geometry:
 - margin=25mm
 - heightrounded
@@ -45,7 +47,7 @@ Platform/DevOps/SRE Engineer
 
 ## Job History
 
-### Westpac New Zealand
+### Westpac New Zealand (2021 - Current)
 
 #### Responsibilies
 
@@ -70,7 +72,7 @@ by over 60% in simulated scenarios.
 Recognized as "Employee of the Year" for outstanding contributions to the team
 and project success, leading to a significant client retention rate improvement.
 
-### Fraedom
+### Fraedom (2019 - 2021)
 
 #### Responsibilies
 
@@ -94,7 +96,7 @@ platforms, increasing system security by 50%.
 Awarded for leading a team through a critical transition to cloud
 infrastructure, which supported scalability during peak usage times.
 
-### Healthlink
+### Healthlink (2017 - 2019)
 
 #### Responsibilies
 
