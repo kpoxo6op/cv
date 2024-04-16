@@ -16,11 +16,15 @@ jobs:
       - name: Install Pandoc and LaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc
-          sudo apt-get install -y texlive-xetex  # Install LaTeX packages needed for PDF generation
-
+          sudo apt install \
+            pandoc \
+            texlive-latex-base \
+            texlive-fonts-recommended \
+            texlive-extra-utils \
+            texlive-latex-extra \
+            texlive-xetex
       - name: Convert Markdown to PDF
-        run: pandoc cv.md -o cv.pdf
+        run: pandoc cv.md -o cv.pdf --pdf-engine=xelatex
 
       - name: Commit and Push PDF
         run: |
