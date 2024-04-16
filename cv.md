@@ -1,6 +1,8 @@
 # Boris Khasanov
 
-Cringey statement about Borex
+bouresk@outlook.com | +64221712798 | NZ Citizen
+
+Platform/DevOps/SRE Engineer 
 
 ## Skills
 
