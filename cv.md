@@ -1,6 +1,5 @@
 ---
-title: "Boris Khasanov"
-# font no found in github actions
+# title: "Boris Khasanov"
 mainfont: "Latin Modern Mono Light"
 geometry:
 - margin=25mm
