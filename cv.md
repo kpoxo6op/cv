@@ -1,9 +1,11 @@
 ---
-mainfont: Ubuntu Mono
+title: "Boris Khasanov"
+mainfont: "Roboto Mono"
 geometry:
 - margin=25mm
 - heightrounded
 ---
+
 # Boris Khasanov
 
 [bouresk@outlook.com](mailto:bouresk@outlook.com) | [64221712798](tel:64221712798)
