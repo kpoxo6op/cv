@@ -1,5 +1,5 @@
 ---
-mainfont: Nimbus Mono L
+mainfont: Ubuntu Mono
 geometry:
 - margin=25mm
 - heightrounded
