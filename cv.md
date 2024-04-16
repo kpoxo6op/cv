@@ -8,7 +8,7 @@ output: pdf_document
 ---
 # Boris Khasanov
 
-<bouresk@outlook.com> | +64221712798
+[bouresk@outlook.com](mailto:bouresk@outlook.com) | [64221712798](tel:64221712798)
 
 Platform/DevOps/SRE Engineer
 
