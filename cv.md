@@ -1,10 +1,8 @@
 ---
+mainfont: Courier
 geometry:
-header-includes:
-   - \usepackage{courier}
-   - \renewcommand*\familydefault{\ttdefault}
-geometry: "margin=25mm, heightrounded"
-output: pdf_document
+- margin=25mm
+- heightrounded
 ---
 # Boris Khasanov
 
