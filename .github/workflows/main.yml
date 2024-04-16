@@ -24,12 +24,6 @@ jobs:
             texlive-latex-extra \
             texlive-xetex
 
-      - name: Install Roboto Mono Font
-        run: |
-          sudo mkdir -p /usr/share/fonts/truetype/roboto_mono
-          sudo wget -O /usr/share/fonts/truetype/roboto_mono/RobotoMono-Regular.ttf https://github.com/google/fonts/raw/main/ofl/robotomono/RobotoMono-Regular.ttf
-          sudo fc-cache -fv
-
       - name: Convert Markdown to PDF
         run: pandoc cv.md -o cv.pdf --pdf-engine=xelatex
 
