@@ -22,7 +22,8 @@ jobs:
             texlive-fonts-recommended \
             texlive-extra-utils \
             texlive-latex-extra \
-            texlive-xetex
+            texlive-xetex \
+            gsfonts-x11
       - name: Convert Markdown to PDF
         run: pandoc cv.md -o cv.pdf --pdf-engine=xelatex
 
