@@ -121,7 +121,7 @@ hundreds of manual work hours annually.
 
 #### Responsibilies
 
-yes
+yes ok
 
 #### Achievements
 
