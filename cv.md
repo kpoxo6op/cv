@@ -1,3 +1,9 @@
+---
+geometry:
+- top=30mm
+- left=20mm
+- heightrounded
+---
 # Boris Khasanov
 
 
