@@ -1,6 +1,6 @@
 ---
 title: "Boris Khasanov"
-mainfont: "Ubuntu Mono"
+mainfont: courier
 geometry:
 - margin=25mm
 - heightrounded
