@@ -1,5 +1,5 @@
 ---
-mainfont: Courier New
+mainfont: Nimbus Mono L
 geometry:
 - margin=25mm
 - heightrounded
