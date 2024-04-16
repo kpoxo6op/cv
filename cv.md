@@ -1,5 +1,4 @@
 ---
-# title: "Boris Khasanov"
 mainfont: "Latin Modern Mono Light"
 geometry:
 - margin=25mm
@@ -48,7 +47,7 @@ Platform/DevOps/SRE Engineer
 
 ### Westpac New Zealand (2021 - Current)
 
-**Responsibilies**
+### Responsibilies
 
 Lead the design and implementation of infrastructure solutions with a focus on
 scalability, reliability, and security.
@@ -59,7 +58,7 @@ processes that enhance product efficiency and performance.
 Monitor system performance indicators and ensure compliance with industry
 standards and best practices.
 
-**Achievements**
+### Achievements
 
 Successfully deployed a Kubernetes-based microservices architecture that
 resulted in a 40% improvement in deployment speeds and a 30% reduction in
@@ -73,7 +72,7 @@ and project success, leading to a significant client retention rate improvement.
 
 ### Fraedom (2019 - 2021)
 
-**Responsibilies**
+### Responsibilies
 
 Oversee the continuous integration and deployment pipeline to streamline
 software updates and patch management.
@@ -84,7 +83,7 @@ platforms and software applications.
 Mentor junior team members, providing guidance on best practices in software
 development and system administration.
 
-**Achievements**
+### Achievements
 
 Implemented a CI/CD pipeline that increased software release frequency by 200%,
 significantly boosting the development team's productivity.
@@ -97,7 +96,7 @@ infrastructure, which supported scalability during peak usage times.
 
 ### Healthlink (2017 - 2019)
 
-**Responsibilies**
+### Responsibilies
 
 Manage and optimize large-scale databases and storage solutions to support
 enterprise-level applications.
@@ -108,7 +107,7 @@ compliance with GDPR and other regulatory standards.
 Initiate and lead projects aimed at improving system efficiency and reducing
 waste, coordinating with various departments.
 
-**Achievements**
+### Achievements
 
 Redesigned database indexing strategies, which reduced query response times by
 up to 70% for key business operations.
@@ -121,11 +120,11 @@ hundreds of manual work hours annually.
 
 ### Two Degrees Mobile
 
-**Responsibilies**
+### Responsibilies
 
 yes ok
 
-**Achievements**
+### Achievements
 
 many
 
