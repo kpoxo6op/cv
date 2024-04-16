@@ -1,5 +1,5 @@
 ---
-mainfont: Courier
+mainfont: Courier New
 geometry:
 - margin=25mm
 - heightrounded
