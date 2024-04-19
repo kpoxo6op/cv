@@ -32,8 +32,8 @@ looking for something something
 
 ### Westpac New Zealand (2021 - Current)
 
-**Responsibilities**: Lead the design and implementation of infrastructure solutions with a focus on
-scalability, reliability, and security.
+**Responsibilities**: Lead the design and implementation of infrastructure
+solutions with a focus on scalability, reliability, and security.
 
 Collaborate with cross-functional teams to integrate new technologies and
 processes that enhance product efficiency and performance.
@@ -41,9 +41,9 @@ processes that enhance product efficiency and performance.
 Monitor system performance indicators and ensure compliance with industry
 standards and best practices.
 
-**Achievements**: Successfully deployed a Kubernetes-based microservices architecture that
-resulted in a 40% improvement in deployment speeds and a 30% reduction in
-operating costs.
+**Achievements**: Successfully deployed a Kubernetes-based microservices
+architecture that resulted in a 40% improvement in deployment speeds and a 30%
+reduction in operating costs.
 
 Developed a comprehensive disaster recovery plan that reduced potential downtime
 by over 60% in simulated scenarios.
@@ -53,8 +53,8 @@ and project success, leading to a significant client retention rate improvement.
 
 ### Fraedom (2019 - 2021)
 
-**Responsibilities**: Oversee the continuous integration and deployment pipeline to streamline
-software updates and patch management.
+**Responsibilities**: Oversee the continuous integration and deployment pipeline
+to streamline software updates and patch management.
 
 Engage in troubleshooting and resolving complex technical issues across multiple
 platforms and software applications.
@@ -62,8 +62,8 @@ platforms and software applications.
 Mentor junior team members, providing guidance on best practices in software
 development and system administration.
 
-**Achievements**: Implemented a CI/CD pipeline that increased software release frequency by 200%,
-significantly boosting the development team's productivity.
+**Achievements**: Implemented a CI/CD pipeline that increased software release
+frequency by 200%, significantly boosting the development team's productivity.
 
 Led a critical security overhaul that patched vulnerabilities across all digital
 platforms, increasing system security by 50%.
@@ -73,8 +73,8 @@ infrastructure, which supported scalability during peak usage times.
 
 ### Healthlink (2017 - 2019)
 
-**Responsibilities**: Manage and optimize large-scale databases and storage solutions to support
-enterprise-level applications.
+**Responsibilities**: Manage and optimize large-scale databases and storage
+solutions to support enterprise-level applications.
 
 Conduct regular security audits to identify and mitigate risks, maintaining
 compliance with GDPR and other regulatory standards.
@@ -82,8 +82,8 @@ compliance with GDPR and other regulatory standards.
 Initiate and lead projects aimed at improving system efficiency and reducing
 waste, coordinating with various departments.
 
-**Achievements**: Redesigned database indexing strategies, which reduced query response times by
-up to 70% for key business operations.
+**Achievements**: Redesigned database indexing strategies, which reduced query
+response times by up to 70% for key business operations.
 
 Played a pivotal role in the migration of data systems to a fully encrypted
 cloud-based platform, enhancing data integrity and access security.
@@ -93,8 +93,8 @@ hundreds of manual work hours annually.
 
 ### Two Degrees Mobile (2012 - 2017)
 
-**Responsibilities**: Managed 24x7 support and maintenance for Microsoft Dynamics
-CRM, in-house CRM, and payment processing systems.
+**Responsibilities**: Managed 24x7 support and maintenance for Microsoft
+Dynamics CRM, in-house CRM, and payment processing systems.
 
 Implemented system updates and monitored performance to ensure high service
 availability.
@@ -112,4 +112,6 @@ involvement and decreased response times and human errors through automation.
 
 ## Links
 
-[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) | [github.com/kpoxo6op](https://github.com/kpoxo6op) | [thennow.nz](https://thennow.nz)
+[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) |
+[github.com/kpoxo6op](https://github.com/kpoxo6op) |
+[thennow.nz](https://thennow.nz)
