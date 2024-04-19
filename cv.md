@@ -9,7 +9,7 @@ block-headings: true
 # Boris Khasanov
 
 [bouresk@outlook.com](mailto:bouresk@outlook.com) |
-[64221712798](tel:64221712798)
+[64221712798](tel:64221712798) | Auckland, NZ
 
 Platform/DevOps/SRE Engineer something something automation is looking for
 something something
