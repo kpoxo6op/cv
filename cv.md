@@ -28,7 +28,7 @@ looking for something something
 | Automation & Orchestration | Terraform, Puppet, Chef, SaltStack, Kubernetes Operators                          |
 |  Development & Build Tools | Git, Jenkins, Maven, Gradle, Ant, GitLab CI, GitHub Actions                       |
 
-## Job History
+## Career
 
 ### Westpac New Zealand (2021 - Current)
 
