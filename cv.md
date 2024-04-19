@@ -16,35 +16,25 @@ looking for something something
 
 ## Skills
 
-| Category                   | Skills                                           |
-|----------------------------|--------------------------------------------------|
-| General Tech Stuff         | GitOps, CI/CD, Version Control Systems           |
-|                            | Automated Testing, Security Best Practices       |
-|                            |                                                  |
-| Tech                       | Kubernetes (k8s), Linux, Docker, Ansible         |
-|                            | VMWare, Hyper-V                                  |
-|                            | Cloud Platforms (AWS, Azure, GCP)                |
-|                            |                                                  |
-| Monitoring                 | Grafana, Prometheus, Splunk, ELK Stack           |
-|                            | Nagios, Zabbix, CloudWatch                       |
-|                            |                                                  |
-| Programming & Scripting    | Python, Bash, PowerShell, Go, Ruby, Perl         |
-|                            |                                                  |
-| Networking                 | TCP/IP, DNS, DHCP, SSL/TLS                       |
-|                            | Firewall Management, VPNs, Load Balancing        |
-|                            |                                                  |
-| Storage & Databases        | SQL, NoSQL, MySQL, PostgreSQL                    |
-|                            | MongoDB, Cassandra, Redis                        |
-|                            | NFS, SAN, iSCSI                                  |
-|                            |                                                  |
-| Cloud Technologies         | IaaS, PaaS, SaaS, Serverless Computing           |
-|                            | Container Orchestration, Cloud Security          |
-|                            |                                                  |
-| Automation & Orchestration | Terraform, Puppet, Chef, SaltStack               |
-|                            | Kubernetes Operators                             |
-|                            |                                                  |
-| Development & Build Tools  | Git, Jenkins, Maven, Gradle, Ant                 |
-|                            | GitLab CI, GitHub Actions                        |
+| Category                   | Skills                                                                            |
+|----------------------------|-----------------------------------------------------------------------------------|
+| General Tech Stuff         | GitOps, CI/CD, Version Control Systems Automated Testing, Security Best Practices |
+|                            |                                                                                   |
+| Tech                       | Kubernetes, Linux, Docker, Cloud Platforms (AWS, Azure, GCP)                      |
+|                            |                                                                                   |
+| Monitoring                 | Grafana, Prometheus, Splunk, ELK Stack  Nagios, Zabbix, CloudWatch                |
+|                            |                                                                                   |
+| Programming & Scripting    | Python, Bash, PowerShell, Go, Ruby, Perl                                          |
+|                            |                                                                                   |
+| Networking                 | TCP/IP, DNS, DHCP, SSL/TLS Firewall Management, VPNs, Load Balancing              |
+|                            |                                                                                   |
+| Storage & Databases        | SQL, NoSQL, MySQL, PostgreSQL                                                     |
+|                            |                                                                                   |
+| Cloud Technologies         | IaaS, PaaS, SaaS, Serverless Computing, Container Orchestration, Cloud Security   |
+|                            |                                                                                   |
+| Automation & Orchestration | Terraform, Puppet, Chef, SaltStack, Kubernetes Operators                          |
+|                            |                                                                                   |
+| Development & Build Tools  | Git, Jenkins, Maven, Gradle, Ant, GitLab CI, GitHub Actions                       |
 
 ## Job History
 
@@ -123,10 +113,8 @@ hundreds of manual work hours annually.
 
 ### Two Degrees Mobile (2012 - 2017)
 
-#### Responsibilies
-
-Managed 24x7 support and maintenance for Microsoft Dynamics CRM, in-house CRM,
-and payment processing systems.
+**Responsibilies**: Managed 24x7 support and maintenance for Microsoft Dynamics
+CRM, in-house CRM, and payment processing systems.
 
 Implemented system updates and monitored performance to ensure high service
 availability.
@@ -134,11 +122,9 @@ availability.
 Provided training and mentorship to team members on various technical components
 and best practices.
 
-#### Achievements
-
-Collaborated with colleagues across different teams to develop a user-friendly
-framework using Oracle DB, Shell scripts, SOAP, WSDL, and web frontend
-technologies.
+**Achievements**: Collaborated with colleagues across different teams to develop
+a user-friendly framework using Oracle DB, Shell scripts, SOAP, WSDL, and web
+frontend technologies.
 
 Developed tools using the framework for the Customer Care team, enabling them to
 handle inquiries independently. This reduced the need for Operations team
