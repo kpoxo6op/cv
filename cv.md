@@ -11,8 +11,8 @@ block-headings: true
 [bouresk@outlook.com](mailto:bouresk@outlook.com) |
 [64221712798](tel:64221712798) | Auckland, NZ
 
-Platform/DevOps/SRE Engineer something something automation is looking for
-something something
+Platform/DevOps/SRE Engineer dedicated to automation and continuous improvement
+looking for something something
 
 ## Skills
 
