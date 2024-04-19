@@ -3,13 +3,16 @@ mainfont: "Latin Modern Mono Light"
 geometry:
 - margin=25mm
 - heightrounded
+block-headings: true
 ---
 
 # Boris Khasanov
 
-[bouresk@outlook.com](mailto:bouresk@outlook.com) | [64221712798](tel:64221712798)
+[bouresk@outlook.com](mailto:bouresk@outlook.com) |
+[64221712798](tel:64221712798)
 
-Platform/DevOps/SRE Engineer
+Platform/DevOps/SRE Engineer something something automation is looking for
+something something
 
 ## Skills
 
@@ -47,7 +50,7 @@ Platform/DevOps/SRE Engineer
 
 ### Westpac New Zealand (2021 - Current)
 
-### Responsibilies
+#### Responsibilies
 
 Lead the design and implementation of infrastructure solutions with a focus on
 scalability, reliability, and security.
@@ -58,7 +61,7 @@ processes that enhance product efficiency and performance.
 Monitor system performance indicators and ensure compliance with industry
 standards and best practices.
 
-### Achievements
+#### Achievements
 
 Successfully deployed a Kubernetes-based microservices architecture that
 resulted in a 40% improvement in deployment speeds and a 30% reduction in
@@ -72,7 +75,7 @@ and project success, leading to a significant client retention rate improvement.
 
 ### Fraedom (2019 - 2021)
 
-### Responsibilies
+#### Responsibilies
 
 Oversee the continuous integration and deployment pipeline to streamline
 software updates and patch management.
@@ -83,7 +86,7 @@ platforms and software applications.
 Mentor junior team members, providing guidance on best practices in software
 development and system administration.
 
-### Achievements
+#### Achievements
 
 Implemented a CI/CD pipeline that increased software release frequency by 200%,
 significantly boosting the development team's productivity.
@@ -96,7 +99,7 @@ infrastructure, which supported scalability during peak usage times.
 
 ### Healthlink (2017 - 2019)
 
-### Responsibilies
+#### Responsibilies
 
 Manage and optimize large-scale databases and storage solutions to support
 enterprise-level applications.
@@ -107,7 +110,7 @@ compliance with GDPR and other regulatory standards.
 Initiate and lead projects aimed at improving system efficiency and reducing
 waste, coordinating with various departments.
 
-### Achievements
+#### Achievements
 
 Redesigned database indexing strategies, which reduced query response times by
 up to 70% for key business operations.
@@ -118,20 +121,33 @@ cloud-based platform, enhancing data integrity and access security.
 Honored with the "Innovator Award" for developing an automated script that saved
 hundreds of manual work hours annually.
 
-### Two Degrees Mobile
+### Two Degrees Mobile (2012 - 2017)
 
-### Responsibilies
+#### Responsibilies
 
-yes ok
+Managed 24x7 support and maintenance for Microsoft Dynamics CRM, in-house CRM,
+and payment processing systems.
 
-### Achievements
+Implemented system updates and monitored performance to ensure high service
+availability.
 
-many
+Provided training and mentorship to team members on various technical components
+and best practices.
+
+#### Achievements
+
+Collaborated with colleagues across different teams to develop a user-friendly
+framework using Oracle DB, Shell scripts, SOAP, WSDL, and web frontend
+technologies.
+
+Developed tools using the framework for the Customer Care team, enabling them to
+handle inquiries independently. This reduced the need for Operations team
+involvement and decreased response times and human errors through automation.
 
 ## Links
 
-[linkedin](https://linkedin.com/in/kpoxo6op)
+[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op)
 
-[github](https://github.com/kpoxo6op)
+[github.com/kpoxo6op](https://github.com/kpoxo6op)
 
-[thennow.nz](https://thennow.nz) - personal project
+[thennow.nz](https://thennow.nz)
