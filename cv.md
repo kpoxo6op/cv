@@ -112,8 +112,4 @@ involvement and decreased response times and human errors through automation.
 
 ## Links
 
-[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op)
-
-[github.com/kpoxo6op](https://github.com/kpoxo6op)
-
-[thennow.nz](https://thennow.nz)
+[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) | [github.com/kpoxo6op](https://github.com/kpoxo6op) | [thennow.nz](https://thennow.nz)
