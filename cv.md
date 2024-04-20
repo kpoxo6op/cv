@@ -71,7 +71,7 @@ platforms, increasing system security by 50%.
 Awarded for leading a team through a critical transition to cloud
 infrastructure, which supported scalability during peak usage times.
 
-### Healthlink (2017 - 2019)
+### Healthlink (2017 - 2019) | [healthlink.co.nz](https://healthlink.co.nz)
 
 **Responsibilities**: Manage and optimize large-scale databases and storage
 solutions to support enterprise-level applications.
@@ -91,10 +91,11 @@ cloud-based platform, enhancing data integrity and access security.
 Honored with the "Innovator Award" for developing an automated script that saved
 hundreds of manual work hours annually.
 
-### Two Degrees Mobile (2012 - 2017)
+### Two Degrees Mobile (2012 - 2017) | [2degrees.nz](https://2degrees.nz)
 
-**Responsibilities**: Managed 24x7 support and maintenance for Microsoft
-Dynamics CRM, in-house CRM, and payment processing systems.
+**Responsibilities**: Oversaw 24x7 support and maintenance for CRM, payment
+processing systems, and self-care portals, ensuring continuous operation and
+reliability.
 
 Implemented system updates and monitored performance to ensure high service
 availability.
@@ -102,13 +103,13 @@ availability.
 Provided training and mentorship to team members on various technical components
 and best practices.
 
-**Achievements**: Collaborated with colleagues across different teams to develop
-a user-friendly framework using Oracle DB, Shell scripts, SOAP, WSDL, and web
-frontend technologies.
+**Achievements**: Collaborated with cross-functional teams to develop a
+user-friendly operations framework (UFO) with Oracle DB, Shell scripts, SOAP,
+WSDL, and web frontend technologies.
 
-Developed tools using the framework for the Customer Care team, enabling them to
-handle inquiries independently. This reduced the need for Operations team
-involvement and decreased response times and human errors through automation.
+Developed over 50 UFO tools that enabled Customer Care team to independently
+manage customer inquiries. This reduced Operations team involvement, improved
+response efficiency, and eliminated error-prone manual labor through automation.
 
 ## Links
 
