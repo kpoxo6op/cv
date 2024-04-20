@@ -73,23 +73,28 @@ infrastructure, which supported scalability during peak usage times.
 
 ### Healthlink (2017 - 2019) | [healthlink.co.nz](https://healthlink.co.nz)
 
-**Responsibilities**: Manage and optimize large-scale databases and storage
-solutions to support enterprise-level applications.
+**Responsibilities**: Oversaw the management and optimization of HealthLink's
+core services, including the Messaging System, Provider Referrals, and
+SmartForms, ensuring robust performance and high availability for over 15,000
+medical organizations across Australia and New Zealand.
 
-Conduct regular security audits to identify and mitigate risks, maintaining
-compliance with GDPR and other regulatory standards.
+Implemented system enhancements and led off-hours deployments for critical
+applications, participating in a 24/7 on-call support roster.
 
-Initiate and lead projects aimed at improving system efficiency and reducing
-waste, coordinating with various departments.
+Conducted thorough monitoring and root cause analysis to continuously improve
+HealthLink applications, directly increasing system reliability and reducing
+operational downtime.
 
-**Achievements**: Redesigned database indexing strategies, which reduced query
-response times by up to 70% for key business operations.
+**Achievements**: Designed and launched the WASUP system (Windows Automatic
+System Updates with PowerShell) to automate updates across over 30+
+non-production machines.
 
-Played a pivotal role in the migration of data systems to a fully encrypted
-cloud-based platform, enhancing data integrity and access security.
+Developed a tool for creating developer accounts to the HealthLink Online
+Directory with Apigee, Docker, PHP, and Apache.
 
-Honored with the "Innovator Award" for developing an automated script that saved
-hundreds of manual work hours annually.
+Upgraded integration engine instances (Rhapsodies), working with vendors to
+incorporate new support features and development tools that improved upon
+previous versions.
 
 ### Two Degrees Mobile (2012 - 2017) | [2degrees.nz](https://2degrees.nz)
 
