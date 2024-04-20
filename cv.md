@@ -53,14 +53,14 @@ and project success, leading to a significant client retention rate improvement.
 
 ### Fraedom (2019 - 2021)
 
-**Responsibilities**: Oversee the continuous integration and deployment pipeline
-to streamline software updates and patch management.
+**Responsibilities**: Automated product release processes to enhance deployment
+efficiency and minimize risks.
 
-Engage in troubleshooting and resolving complex technical issues across multiple
-platforms and software applications.
+Integrated new technologies and third-party tools to advance the software
+development life cycle.
 
-Mentor junior team members, providing guidance on best practices in software
-development and system administration.
+Conducted internal training and workshops to foster technology adoption and
+improve stakeholder relationships.
 
 **Achievements**: Implemented a CI/CD pipeline that increased software release
 frequency by 200%, significantly boosting the development team's productivity.
@@ -112,7 +112,7 @@ and best practices.
 user-friendly operations framework (UFO) with Oracle DB, Shell scripts, SOAP,
 WSDL, and web frontend technologies.
 
-Developed over 50 UFO tools that enabled Customer Care team to independently
+Developed over 30 UFO tools that enabled Customer Care team to independently
 manage customer inquiries. This reduced Operations team involvement, improved
 response efficiency, and eliminated error-prone manual labor through automation.
 
