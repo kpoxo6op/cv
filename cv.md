@@ -73,24 +73,19 @@ infrastructure, which supported scalability during peak usage times.
 
 ### Healthlink (2017 - 2019) | [healthlink.co.nz](https://healthlink.co.nz)
 
-**Responsibilities**: Oversaw the management and optimization of HealthLink's
-core services, including the Messaging System, Provider Referrals, and
-SmartForms, ensuring robust performance and high availability for over 15,000
-medical organizations across Australia and New Zealand.
+**Responsibilities**: Supported HealthLink's core services - Messaging System,
+Provider Referrals, and SmartForms, ensuring robust performance and high
+availability for over 15,000 medical organizations across Australia and New
+Zealand.
 
 Implemented system enhancements and led off-hours deployments for critical
 applications, participating in a 24/7 on-call support roster.
 
-Conducted thorough monitoring and root cause analysis to continuously improve
-HealthLink applications, directly increasing system reliability and reducing
-operational downtime.
+**Achievements**: Designed and launched the WASUP (Windows Automatic System
+Updates with PowerShell) to automate updates for 30+ non-production machines.
 
-**Achievements**: Designed and launched the WASUP system (Windows Automatic
-System Updates with PowerShell) to automate updates across over 30+
-non-production machines.
-
-Developed a tool for creating developer accounts to the HealthLink Online
-Directory with Apigee, Docker, PHP, and Apache.
+Developed a tool for adding developer accounts to HealthLink Online Directory
+service with Apigee, Docker, PHP, Apache.
 
 Upgraded integration engine instances (Rhapsodies), working with vendors to
 incorporate new support features and development tools that improved upon
