@@ -51,25 +51,20 @@ by over 60% in simulated scenarios.
 Recognized as "Employee of the Year" for outstanding contributions to the team
 and project success, leading to a significant client retention rate improvement.
 
-### Fraedom (2019 - 2021)
+### Fraedom (2019 - 2021) | acquired by [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
 
-**Responsibilities**: Automated product release processes to enhance deployment
-efficiency and minimize risks.
+**Responsibilities**: Developed and maintained Octopus Deploy pipelines and
+configuration to ensure reliable software deployments.
 
-Integrated new technologies and third-party tools to advance the software
-development life cycle.
+Updated and maintained the deployment pipeline to ensure consistent and reliable
+software deployments, providing guidance to ensure smooth transitions and
+adoption.
 
-Conducted internal training and workshops to foster technology adoption and
-improve stakeholder relationships.
-
-**Achievements**: Implemented a CI/CD pipeline that increased software release
-frequency by 200%, significantly boosting the development team's productivity.
-
-Led a critical security overhaul that patched vulnerabilities across all digital
-platforms, increasing system security by 50%.
-
-Awarded for leading a team through a critical transition to cloud
-infrastructure, which supported scalability during peak usage times.
+**Achievements**: Created an Octopus Deploy pipeline for offline deployments.
+Collaborated with Ops team to replace the legacy manual repackaging process with
+Octopus's native packaging functionality. Developed a PowerShell module for
+automating the collection, compression, and FTP transfer of release bundles to
+production servers.
 
 ### Healthlink (2017 - 2019) | [healthlink.co.nz](https://healthlink.co.nz)
 
