@@ -35,7 +35,9 @@ Kafka (Confluent Platform)
 HashiCorp Vault, Venafi, Chef
 YAML, Java, Bash, Python, Git
 Observability tools: Prometheus, Grafana, Splunk, Kibana, PagerDuty, Dynatrace
+```
 
+```txt
 - Experience with complex, multi-layered, distributed systems.
 - Being a self starter with the ability to work effectively in teams
 - Working knowledge of information security practices
@@ -45,129 +47,96 @@ Observability tools: Prometheus, Grafana, Splunk, Kibana, PagerDuty, Dynatrace
 - Demonstrated ability to manage & resolve service and operational problems,
   including root cause analysis
 - Proven ability to own tasks, issues & plans and manage/ drive them through to completion
-
+- automate as much as possible, with a focus on GitOps/DevOps processes to create
+an agile, developer-friendly way of working.
 ```
 
 ## Career
 
 ### Westpac New Zealand (2021 - Current)
 
-**Responsibilities**: fully remote environment.  pair programming, asynchronous
-communication, and good documentation.
-
-automate as much as possible, with a focus on GitOps/DevOps processes to create
-an agile, developer-friendly way of working.
-
-Our platform is used as the backbone of such systems as Apple Pay or Online
-EFTPOS, as well as a foundation of business analytics, reporting, and data
-science.
+#### Responsibilities
 
 - Design, implement, and maintain a secure and scalable event streaming platform
 - Create tools for automating deployment, monitoring and operations of the
-  overall - platform
+overall platform
 - Provide ongoing maintenance and support of internal tools, improve system
-  health and reduce toil
+health and reduce toil
 - Pair with other engineers to attack complex problems and share knowledge
-- Learn from and contribute to a team committed to continually improving their
-  skills
-- Facilitate adoption of event streaming patterns and practices across the
-  organisation
-- Participate in on-call rotation to provide application support, incident
-  response, and troubleshooting
 - Provide detailed and constructive design and code reviews.
-- Recommend/design structure and tools for systems, which meet business needs.
-- Deliver technical visualisation of proposed applications for approval by
-  customer and execution by system developers
-- Translate logical designs into physical designs, and produce detailed design
-  documentations
-- Map work to user specification and remove errors and deviations from
-  specification to achieve user-friendly processes
-- Set local or team-based standards for programming tools and techniques, advise
-  on their application, and ensures compliance.
-- Take technical responsibility for all stages in the software development
-  process.
-- Prepare project and quality plans and advise systems development teams.
-- Assign work packages to technical staff, monitor performance and report
-  progress.
-- Provide advice, guidance, and assistance to less experienced colleagues as
-  required.
-- Support the team as part of the on-call
-- Proactively seek opportunities for continuous improvement and adopting
-  industry best practices
 - Drive the improvement of the operational processes and proactively identify
-  and eliminate toil
-- Own incident response and management, leading the triage and troubleshooting
-  efforts during the incident and conducting a postmortem afterwards
-- Mentor other engineers in using the tools of the craft and following good
-  engineering practices
+and eliminate toil
 - Provide advice, guidance, and assistance to less experienced colleagues as
-  required.
-- Support the team as part of the on-call
+required.
 - Participate in on-call rotation to provide application support, incident
-  response, and troubleshooting
+response, and troubleshooting
+- Own incident response and management, leading the triage and troubleshooting
+efforts during the incident and conducting a postmortem afterwards
 
-**Achievements**: Successfully deployed a Kubernetes-based microservices
-architecture that resulted in a 40% improvement in deployment speeds and a 30%
-reduction in operating costs.
+#### Achievements
 
-Developed a comprehensive disaster recovery plan that reduced potential downtime
-by over 60% in simulated scenarios.
-
-Recognized as "Employee of the Year" for outstanding contributions to the team
-and project success, leading to a significant client retention rate improvement.
+- Implemented BYO Cloudbees build agents on AWS and Confluent Cloud for a newly
+  developed platform, facilitating streamlined access to AWS managed accounts.
+- Initiated and led discussions with stakeholders across multiple departments to
+  address the duration of mandatory learning modules organization-wide.
+  Successfully advocated for a reduction in both the number of and length of
+  required modules, ultimately halving the mandatory training time.
 
 ### Fraedom (2019 - 2021) | acquired by [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
 
-**Responsibilities**: Developed and maintained Octopus Deploy pipelines and
-configuration to ensure reliable software deployments.
+#### Responsibilities
 
-Updated and maintained the deployment pipeline to ensure consistent and reliable
-software deployments, providing guidance to ensure smooth transitions and
-adoption.
+- Developed and maintained Octopus Deploy pipelines and configuration to ensure
+reliable software deployments.
+- Updated and maintained the deployment pipeline to ensure consistent and
+reliable software deployments, providing guidance to ensure smooth transitions
+and adoption.
 
-**Achievements**: Created an Octopus Deploy pipeline for offline deployments.
-Collaborated with Ops team to replace the legacy manual repackaging process with
-Octopus's native packaging functionality. Developed a PowerShell module for
-automating the collection, compression, and FTP transfer of release bundles to
-production servers.
+#### Achievements
+
+- Created an Octopus Deploy pipeline for offline deployments. Collaborated with
+Ops team to replace the legacy manual repackaging process with Octopus's native
+packaging functionality. Developed a PowerShell module for automating the
+collection, compression, and FTP transfer of release bundles to production
+servers.
 
 ### Healthlink (2017 - 2019) | [healthlink.co.nz](https://healthlink.co.nz)
 
-**Responsibilities**: Supported HealthLink's core services - Messaging System,
-Provider Referrals, and SmartForms, ensuring robust performance and high
-availability for over 15,000 medical organizations across Australia and New
-Zealand.
+#### Responsibilities
 
-Implemented system enhancements and led off-hours deployments for critical
+- Supported HealthLink's core services - Messaging System, Provider Referrals,
+and SmartForms, ensuring robust performance and high availability for over
+15,000 medical organizations across Australia and New Zealand.
+- Implemented system enhancements and led off-hours deployments for critical
 applications, participating in a 24/7 on-call support roster.
 
-**Achievements**: Designed and launched the WASUP (Windows Automatic System
-Updates with PowerShell) to automate updates for 30+ non-production machines.
+#### Achievements
 
-Developed a tool for adding developer accounts to HealthLink Online Directory
+- Designed and launched the WASUP (Windows Automatic System Updates with
+PowerShell) to automate updates for 30+ non-production machines.
+- Developed a tool for adding developer accounts to HealthLink Online Directory
 service with Apigee, Docker, PHP, Apache.
-
-Upgraded integration engine instances (Rhapsodies), working with vendors to
+- Upgraded integration engine instances (Rhapsodies), working with vendors to
 incorporate new support features and development tools that improved upon
 previous versions.
 
 ### Two Degrees Mobile (2012 - 2017) | [2degrees.nz](https://2degrees.nz)
 
-**Responsibilities**: Oversaw 24x7 support and maintenance for CRM, payment
-processing systems, and self-care portals, ensuring continuous operation and
-reliability.
+#### Responsibilities
 
-Implemented system updates and monitored performance to ensure high service
+- Oversaw 24x7 support and maintenance for CRM, payment processing systems, and
+self-care portals, ensuring continuous operation and reliability.
+- Implemented system updates and monitored performance to ensure high service
 availability.
+- Provided training and mentorship to team members on various technical
+components and best practices.
 
-Provided training and mentorship to team members on various technical components
-and best practices.
+#### Achievements
 
-**Achievements**: Collaborated with cross-functional teams to develop a
-user-friendly operations framework (UFO) with Oracle DB, Shell scripts, SOAP,
-WSDL, and web frontend technologies.
-
-Developed over 30 UFO tools that enabled Customer Care team to independently
+- Collaborated with cross-functional teams to develop a user-friendly operations
+framework (UFO) with Oracle DB, Shell scripts, SOAP, WSDL, and web frontend
+technologies.
+- Developed over 30 UFO tools that enabled Customer Care team to independently
 manage customer inquiries. This reduced Operations team involvement, improved
 response efficiency, and eliminated error-prone manual labor through automation.
 
