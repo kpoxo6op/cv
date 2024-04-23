@@ -4,6 +4,13 @@ geometry:
 - margin=25mm
 - heightrounded
 block-headings: true
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhead[C]{Your Header Text Here}
+  - \fancyfoot[C]{\thepage}
+  - \renewcommand{\headrulewidth}{0pt}
+  - \renewcommand{\footrulewidth}{0pt}
 ---
 
 # Boris Khasanov
@@ -53,7 +60,7 @@ an agile, developer-friendly way of working.
 
 ## Career
 
-### Westpac New Zealand (2021 - Current)
+### Westpac New Zealand (June 2021 - Current) [westpac.co.nz](https://westpac.co.nz/)
 
 #### Responsibilities
 
@@ -81,6 +88,9 @@ efforts during the incident and conducting a postmortem afterwards
   address the duration of mandatory learning modules organization-wide.
   Successfully advocated for a reduction in both the number of and length of
   required modules, ultimately halving the mandatory training time.
+- Developed a proof of concept for automated platform upgrade using bash,
+  Bitbucket and Jira APIs, Kubernetes. Mentored an junior engineer in
+  implementing the solution.
 
 ### Fraedom (2019 - 2021) | acquired by [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
 
@@ -142,6 +152,10 @@ response efficiency, and eliminated error-prone manual labor through automation.
 
 ## Links
 
-[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) |
-[github.com/kpoxo6op](https://github.com/kpoxo6op) |
-[thennow.nz](https://thennow.nz)
+- [linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op)
+- [github.com/kpoxo6op](https://github.com/kpoxo6op)
+- [thennow.nz](https://thennow.nz)
+
+## References
+
+References available upon request.
