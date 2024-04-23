@@ -28,18 +28,83 @@ looking for something something
 | Automation & Orchestration | Terraform, Puppet, Chef, SaltStack, Kubernetes Operators                          |
 |  Development & Build Tools | Git, Jenkins, Maven, Gradle, Ant, GitLab CI, GitHub Actions                       |
 
+```txt
+Linux
+Kubernetes, Docker, Helm, Kustomize, Terraform
+Kafka (Confluent Platform)
+HashiCorp Vault, Venafi, Chef
+YAML, Java, Bash, Python, Git
+Observability tools: Prometheus, Grafana, Splunk, Kibana, PagerDuty, Dynatrace
+
+- Experience with complex, multi-layered, distributed systems.
+- Being a self starter with the ability to work effectively in teams
+- Working knowledge of information security practices
+- Experience building and maintaining services on public cloud
+- Experience using Terraform to manage cloud infrastructure (or equivalent -
+  Infrastructure as Code)
+- Demonstrated ability to manage & resolve service and operational problems,
+  including root cause analysis
+- Proven ability to own tasks, issues & plans and manage/ drive them through to completion
+
+```
+
 ## Career
 
 ### Westpac New Zealand (2021 - Current)
 
-**Responsibilities**: Lead the design and implementation of infrastructure
-solutions with a focus on scalability, reliability, and security.
+**Responsibilities**: fully remote environment.  pair programming, asynchronous
+communication, and good documentation.
 
-Collaborate with cross-functional teams to integrate new technologies and
-processes that enhance product efficiency and performance.
+automate as much as possible, with a focus on GitOps/DevOps processes to create
+an agile, developer-friendly way of working.
 
-Monitor system performance indicators and ensure compliance with industry
-standards and best practices.
+Our platform is used as the backbone of such systems as Apple Pay or Online
+EFTPOS, as well as a foundation of business analytics, reporting, and data
+science.
+
+- Design, implement, and maintain a secure and scalable event streaming platform
+- Create tools for automating deployment, monitoring and operations of the
+  overall - platform
+- Provide ongoing maintenance and support of internal tools, improve system
+  health and reduce toil
+- Pair with other engineers to attack complex problems and share knowledge
+- Learn from and contribute to a team committed to continually improving their
+  skills
+- Facilitate adoption of event streaming patterns and practices across the
+  organisation
+- Participate in on-call rotation to provide application support, incident
+  response, and troubleshooting
+- Provide detailed and constructive design and code reviews.
+- Recommend/design structure and tools for systems, which meet business needs.
+- Deliver technical visualisation of proposed applications for approval by
+  customer and execution by system developers
+- Translate logical designs into physical designs, and produce detailed design
+  documentations
+- Map work to user specification and remove errors and deviations from
+  specification to achieve user-friendly processes
+- Set local or team-based standards for programming tools and techniques, advise
+  on their application, and ensures compliance.
+- Take technical responsibility for all stages in the software development
+  process.
+- Prepare project and quality plans and advise systems development teams.
+- Assign work packages to technical staff, monitor performance and report
+  progress.
+- Provide advice, guidance, and assistance to less experienced colleagues as
+  required.
+- Support the team as part of the on-call
+- Proactively seek opportunities for continuous improvement and adopting
+  industry best practices
+- Drive the improvement of the operational processes and proactively identify
+  and eliminate toil
+- Own incident response and management, leading the triage and troubleshooting
+  efforts during the incident and conducting a postmortem afterwards
+- Mentor other engineers in using the tools of the craft and following good
+  engineering practices
+- Provide advice, guidance, and assistance to less experienced colleagues as
+  required.
+- Support the team as part of the on-call
+- Participate in on-call rotation to provide application support, incident
+  response, and troubleshooting
 
 **Achievements**: Successfully deployed a Kubernetes-based microservices
 architecture that resulted in a 40% improvement in deployment speeds and a 30%
