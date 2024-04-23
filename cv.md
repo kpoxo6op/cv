@@ -123,13 +123,9 @@ technologies.
 manage customer inquiries. This reduced Operations team involvement, improved
 response efficiency, and eliminated error-prone manual labor through automation.
 
-## Links
+## Other
 
-- [linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op)
-- [github.com/kpoxo6op](https://github.com/kpoxo6op)
-- [thennow.nz](https://thennow.nz)
-
-## References
+[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) | [github.com/kpoxo6op](https://github.com/kpoxo6op) | [thennow.nz](https://thennow.nz)
 
 References available upon request.
 
