@@ -12,10 +12,8 @@ block-headings: true
 [64221712798](tel:64221712798) | Auckland, NZ
 
 Platform/DevOps/SRE Engineer with a focus on automation and continuous
-improvement. Skilled in managing complex distributed systems and streamlining
-processes using Gitops and Devops. Experienced in resolving service and
-operational issues. I value remote working, pair programming, asynchronous
-communication, and good documentation.
+improvement. Skilled in managing complex distributed systems. I value remote
+working, pair programming, asynchronous communication, good docs.
 
 ## Skills
 
@@ -23,7 +21,7 @@ communication, and good documentation.
 |------------------------:|----------------------------------------------------------------|
 | Core Infrastructure     | Linux, Windows, Kubernetes, Docker, Helm |
 | Cloud                   | AWS, Confluent Cloud, GCP, Azure |
-| DevOps & Automation     | Jenkins, GitLab CI, GitHub Actions, TeamCity, Git, SVN |
+| DevOps & Automation     | GitOps, Jenkins, GitLab CI, GitHub Actions, TeamCity, Git, SVN |
 | Infra as Code           | Terraform, Terragrunt |
 | Security                | HashiCorp Vault, Venafi, Snyk |
 | Coding                  | Bash, Python, PowerShell, Java, Typescript, Node JS, React |
@@ -127,7 +125,9 @@ response efficiency, and eliminated error-prone manual labor through automation.
 
 References available upon request.
 
-[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) | [github.com/kpoxo6op](https://github.com/kpoxo6op) | [thennow.nz](https://thennow.nz)
+[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) |
+[github.com/kpoxo6op](https://github.com/kpoxo6op) |
+[thennow.nz](https://thennow.nz)
 
 <!-- ```txt
 - Experience with complex, multi-layered, distributed systems.
