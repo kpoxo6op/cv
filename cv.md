@@ -11,79 +11,25 @@ block-headings: true
 [bouresk@outlook.com](mailto:bouresk@outlook.com) |
 [64221712798](tel:64221712798) | Auckland, NZ
 
-Platform/DevOps/SRE Engineer dedicated to automation and continuous improvement
-looking for something something
+Platform/DevOps/SRE Engineer with a focus on automation and continuous
+improvement. Skilled in managing complex distributed systems and streamlining
+processes using Gitops and Devops. Experienced in resolving service and
+operational issues. I value remote working, pair programming, asynchronous
+communication, and good documentation.
 
 ## Skills
 
-|                   Category | Skills                                                                            |
-|----------------------------|-----------------------------------------------------------------------------------|
-|         General Tech Stuff | GitOps, CI/CD, Version Control Systems Automated Testing, Security Best Practices |
-|                       Tech | Kubernetes, Linux, Docker, Cloud Platforms (AWS, Azure, GCP)                      |
-|                 Monitoring | Grafana, Prometheus, Splunk, ELK Stack, CloudWatch                                |
-|    Programming & Scripting | Python, Bash, PowerShell, Go, Ruby, Perl                                          |
-|                 Networking | TCP/IP, DNS, DHCP, SSL/TLS Firewall Management, VPNs, Load Balancing              |
-|        Storage & Databases | SQL, NoSQL, MySQL, PostgreSQL                                                     |
-|         Cloud Technologies | IaaS, PaaS, SaaS, Serverless Computing, Container Orchestration, Cloud Security   |
-| Automation & Orchestration | Terraform, Puppet, Chef, SaltStack, Kubernetes Operators                          |
-|  Development & Build Tools | Git, Jenkins, Maven, Gradle, Ant, GitLab CI, GitHub Actions                       |
-
-```txt
-Category                    Skills
-General Tech Stuff          GitOps, CI/CD, Version Control Systems, Automated
-                            Testing, Security Best Practices
-Tech                        Kubernetes, Linux, Docker, Cloud Platforms (AWS,
-                            Azure, GCP)
-Monitoring                  Grafana, Prometheus, Splunk, ELK Stack, CloudWatch
-Programming & Scripting     Python, Bash, PowerShell, Go, Ruby, Perl
-Networking                  TCP/IP, DNS, DHCP, SSL/TLS, Firewall Management,
-VPNs, Load Balancing
-Storage & Databases         SQL, NoSQL, MySQL, PostgreSQL
-Cloud Technologies          IaaS, PaaS, SaaS, Serverless Computing, Container
-                            Orchestration, Cloud Security
-Automation & Orchestration  Terraform, Puppet, Chef, SaltStack, Kubernetes Operators
-Development & Build Tools   Git, Jenkins, Maven, Gradle, Ant, GitLab CI, GitHub Actions
-```
-
-```txt
-                Category    Skills
-      General Tech Stuff    GitOps, CI/CD, Version Control Systems, Automated
-                            Testing, Security Best Practices
-                    Tech    Kubernetes, Linux, Docker, Cloud Platforms (AWS,
-                            Azure, GCP)
-              Monitoring    Grafana, Prometheus, Splunk, ELK Stack, CloudWatch
-Programming & Scripting     Python, Bash, PowerShell, Go, Ruby, Perl
-              Networking    TCP/IP, DNS, DHCP, SSL/TLS, Firewall Management,
-                            VPNs, Load Balancing
-     Storage & Databases    SQL, NoSQL, MySQL, PostgreSQL
-      Cloud Technologies    IaaS, PaaS, SaaS, Serverless Computing, Container
-                            Orchestration, Cloud Security
-Automation & Orchestration  Terraform, Puppet, Chef, SaltStack, Kubernetes Operators
- Development & Build Tools  Git, Jenkins, Maven, Gradle, Ant, GitLab CI, GitHub Actions
-```
-
-```txt
-Linux
-Kubernetes, Docker, Helm, Kustomize, Terraform
-Kafka (Confluent Platform)
-HashiCorp Vault, Venafi, Chef
-YAML, Java, Bash, Python, Git
-Observability tools: Prometheus, Grafana, Splunk, Kibana, PagerDuty, Dynatrace
-```
-
-```txt
-- Experience with complex, multi-layered, distributed systems.
-- Being a self starter with the ability to work effectively in teams
-- Working knowledge of information security practices
-- Experience building and maintaining services on public cloud
-- Experience using Terraform to manage cloud infrastructure (or equivalent -
-  Infrastructure as Code)
-- Demonstrated ability to manage & resolve service and operational problems,
-  including root cause analysis
-- Proven ability to own tasks, issues & plans and manage/ drive them through to completion
-- automate as much as possible, with a focus on GitOps/DevOps processes to create
-an agile, developer-friendly way of working.
-```
+| Category                | Skills |
+|------------------------:|----------------------------------------------------------------|
+| Core Infrastructure     | Linux, Windows, Kubernetes, Docker, Helm |
+| Cloud                   | AWS, Confluent Cloud, GCP, Azure |
+| DevOps & Automation     | Jenkins, GitLab CI, GitHub Actions, TeamCity, Git, SVN |
+| Infra as Code           | Terraform, Terragrunt |
+| Security                | HashiCorp Vault, Venafi, Snyk |
+| Coding                  | Bash, Python, PowerShell, Java, Typescript, Node JS, React |
+| Observability           | Prometheus, Grafana, Splunk, Dynatrace, ELK Stack, PagerDuty |
+| Software Products       | Apache Kafka, IBM Datapower, Rhapsody, Redis, Jira |
+| Databases               | Oracle, MSSQL |
 
 ## Career
 
@@ -186,3 +132,18 @@ response efficiency, and eliminated error-prone manual labor through automation.
 ## References
 
 References available upon request.
+
+<!-- ```txt
+- Experience with complex, multi-layered, distributed systems.
+- Being a self starter with the ability to work effectively in teams
+- Working knowledge of information security practices
+- Experience building and maintaining services on public cloud
+- Experience using Terraform to manage cloud infrastructure (or equivalent -
+  Infrastructure as Code)
+- Demonstrated ability to manage & resolve service and operational problems,
+  including root cause analysis
+- Proven ability to own tasks, issues & plans and manage/ drive them through to completion
+- automate as much as possible, with a focus on GitOps/DevOps processes to create
+an agile, developer-friendly way of working.
+- remote team, pair programming, asynchronous communication, and good documentation.
+``` -->
