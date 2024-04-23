@@ -4,13 +4,6 @@ geometry:
 - margin=25mm
 - heightrounded
 block-headings: true
-header-includes:
-  - \usepackage{fancyhdr}
-  - \pagestyle{fancy}
-  - \fancyhead[C]{Your Header Text Here}
-  - \fancyfoot[C]{\thepage}
-  - \renewcommand{\headrulewidth}{0pt}
-  - \renewcommand{\footrulewidth}{0pt}
 ---
 
 # Boris Khasanov
@@ -34,6 +27,40 @@ looking for something something
 |         Cloud Technologies | IaaS, PaaS, SaaS, Serverless Computing, Container Orchestration, Cloud Security   |
 | Automation & Orchestration | Terraform, Puppet, Chef, SaltStack, Kubernetes Operators                          |
 |  Development & Build Tools | Git, Jenkins, Maven, Gradle, Ant, GitLab CI, GitHub Actions                       |
+
+```txt
+Category                    Skills
+General Tech Stuff          GitOps, CI/CD, Version Control Systems, Automated
+                            Testing, Security Best Practices
+Tech                        Kubernetes, Linux, Docker, Cloud Platforms (AWS,
+                            Azure, GCP)
+Monitoring                  Grafana, Prometheus, Splunk, ELK Stack, CloudWatch
+Programming & Scripting     Python, Bash, PowerShell, Go, Ruby, Perl
+Networking                  TCP/IP, DNS, DHCP, SSL/TLS, Firewall Management,
+VPNs, Load Balancing
+Storage & Databases         SQL, NoSQL, MySQL, PostgreSQL
+Cloud Technologies          IaaS, PaaS, SaaS, Serverless Computing, Container
+                            Orchestration, Cloud Security
+Automation & Orchestration  Terraform, Puppet, Chef, SaltStack, Kubernetes Operators
+Development & Build Tools   Git, Jenkins, Maven, Gradle, Ant, GitLab CI, GitHub Actions
+```
+
+```txt
+                Category    Skills
+      General Tech Stuff    GitOps, CI/CD, Version Control Systems, Automated
+                            Testing, Security Best Practices
+                    Tech    Kubernetes, Linux, Docker, Cloud Platforms (AWS,
+                            Azure, GCP)
+              Monitoring    Grafana, Prometheus, Splunk, ELK Stack, CloudWatch
+Programming & Scripting     Python, Bash, PowerShell, Go, Ruby, Perl
+              Networking    TCP/IP, DNS, DHCP, SSL/TLS, Firewall Management,
+                            VPNs, Load Balancing
+     Storage & Databases    SQL, NoSQL, MySQL, PostgreSQL
+      Cloud Technologies    IaaS, PaaS, SaaS, Serverless Computing, Container
+                            Orchestration, Cloud Security
+Automation & Orchestration  Terraform, Puppet, Chef, SaltStack, Kubernetes Operators
+ Development & Build Tools  Git, Jenkins, Maven, Gradle, Ant, GitLab CI, GitHub Actions
+```
 
 ```txt
 Linux
