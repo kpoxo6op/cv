@@ -125,9 +125,9 @@ response efficiency, and eliminated error-prone manual labor through automation.
 
 ## Other
 
-[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) | [github.com/kpoxo6op](https://github.com/kpoxo6op) | [thennow.nz](https://thennow.nz)
-
 References available upon request.
+
+[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) | [github.com/kpoxo6op](https://github.com/kpoxo6op) | [thennow.nz](https://thennow.nz)
 
 <!-- ```txt
 - Experience with complex, multi-layered, distributed systems.
