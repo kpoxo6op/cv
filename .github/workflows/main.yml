@@ -31,16 +31,16 @@ jobs:
       - name: Convert Markdown to PDF
         run: pandoc cv.md -o cv.pdf --pdf-engine=xelatex
 
-      # - name: Commit and Push PDF
-      #   run: |
-      #     git config --local user.email "action@github.com"
-      #     git config --local user.name "GitHub Action"
-      #     git add cv.pdf
-      #     git commit -m "Update cv.pdf" || echo "No changes to commit"
-      #     git push
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%H-%M-%d-%b-%Y')"
+      - name: Bump version and push tag
+        id: bump_version
+        uses: anothrNick/github-tag-action@1.36.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BUMP: minor  # Default version bump is minor
+          WITH_V: true  # Prefix the tag with 'v', e.g., v1.0.0
+          # Major version bump when 'MAJOR' is found in commit message
+          CUSTOM_BUMP_MESSAGE: "MAJOR"
+          CUSTOM_MAJOR_WORDS: "MAJOR"
 
       - name: Create Release
         id: create_release
@@ -48,8 +48,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ steps.date.outputs.date }}
-          release_name: CV ${{ steps.date.outputs.date }}
+          tag_name: ${{ steps.bump_version.outputs.new_tag }}
+          release_name: CV Release ${{ steps.bump_version.outputs.new_tag }}
           draft: false
           prerelease: false
 
