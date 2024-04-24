@@ -13,7 +13,7 @@ block-headings: true
 
 Platform/DevOps/SRE Engineer with a focus on automation and continuous
 improvement. Skilled in managing complex distributed systems. I value remote
-working, pair programming, asynchronous communication, good docs.
+working, pair programming, asynchronous communication and good documentation.
 
 ## Skills
 
@@ -21,47 +21,48 @@ working, pair programming, asynchronous communication, good docs.
 |------------------------:|----------------------------------------------------------------|
 | Core Infrastructure     | Linux, Windows, Kubernetes, Docker, Helm |
 | Cloud                   | AWS, Confluent Cloud, GCP, Azure |
-| DevOps & Automation     | GitOps, Jenkins, GitLab CI, GitHub Actions, TeamCity, Git, SVN |
+| DevOps & Automation     | GitOps, Jenkins, GitHub Actions, TeamCity |
 | Infra as Code           | Terraform, Terragrunt |
 | Security                | HashiCorp Vault, Venafi, Snyk |
 | Coding                  | Bash, Python, PowerShell, Java, Typescript, Node JS, React |
 | Observability           | Prometheus, Grafana, Splunk, Dynatrace, ELK Stack, PagerDuty |
-| Software Products       | Apache Kafka, IBM Datapower, Rhapsody, Redis, Jira |
-| Databases               | Oracle, MSSQL |
+| Software Products       | Apache Kafka, IBM DatapPower, Rhapsody, Redis, Jira, GitLab CI |
+| Databases               | Oracle, MSSQL, MongoDB |
 
 ## Career
 
-### Westpac New Zealand (June 2021 - Current) [westpac.co.nz](https://westpac.co.nz/)
+### Westpac New Zealand (June 2021 - Current) | [westpac.co.nz](https://westpac.co.nz/)
 
 #### Responsibilities
 
-- Design, implement, and maintain a secure and scalable event streaming platform
+- Design, implement, and maintain secure and scalable event streaming platform.
 - Create tools for automating deployment, monitoring and operations of the
-overall platform
+overall platform.
 - Provide ongoing maintenance and support of internal tools, improve system
-health and reduce toil
-- Pair with other engineers to attack complex problems and share knowledge
+health and reduce toil.
+- Pair with other engineers to attack complex problems and share knowledge.
 - Provide detailed and constructive design and code reviews.
 - Drive the improvement of the operational processes and proactively identify
-and eliminate toil
+and eliminate toil.
 - Provide advice, guidance, and assistance to less experienced colleagues as
 required.
 - Participate in on-call rotation to provide application support, incident
-response, and troubleshooting
+response, and troubleshooting.
 - Own incident response and management, leading the triage and troubleshooting
-efforts during the incident and conducting a postmortem afterwards
+efforts during the incident and conducting a postmortem afterwards.
 
 #### Achievements
 
 - Implemented BYO Cloudbees build agents on AWS and Confluent Cloud for a newly
-  developed platform, facilitating streamlined access to AWS managed accounts.
+developed platform, facilitating streamlined access to AWS managed accounts.
 - Initiated and led discussions with stakeholders across multiple departments to
-  address the duration of mandatory learning modules organization-wide.
-  Successfully advocated for a reduction in both the number of and length of
-  required modules, ultimately halving the mandatory training time.
+address the duration of mandatory learning modules organization-wide.
+Successfully advocated for a reduction in both the number of and length of
+required modules, ultimately halving the mandatory training time for hundreds of
+employees.
 - Developed a proof of concept for automated platform upgrade using bash,
-  Bitbucket and Jira APIs, Kubernetes. Mentored an junior engineer in
-  implementing the solution.
+Bitbucket & Jira APIs, Kubernetes. Mentored a junior engineer in
+implementing the solution.
 
 ### Fraedom (2019 - 2021) | acquired by [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
 
@@ -69,9 +70,11 @@ efforts during the incident and conducting a postmortem afterwards
 
 - Developed and maintained Octopus Deploy pipelines and configuration to ensure
 reliable software deployments.
-- Updated and maintained the deployment pipeline to ensure consistent and
-reliable software deployments, providing guidance to ensure smooth transitions
-and adoption.
+- Provided support to developers for deployment across various environments and
+assisted the operations team with release troubleshooting.
+- Influenced the adoption of new practices and technologies while streamlining
+company processes to reduce constraints and handovers, enhancing operational
+efficiency.
 
 #### Achievements
 
