@@ -7,7 +7,7 @@ on:
 
 jobs:
   convert:
-    runs-on: debian:bullseye
+    runs-on: ubuntu-20.04
 
     steps:
       - name: Checkout Repository

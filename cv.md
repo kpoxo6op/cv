@@ -132,7 +132,7 @@ References available upon request.
 [github.com/kpoxo6op](https://github.com/kpoxo6op) |
 [thennow.nz](https://thennow.nz)
 
-<!-- ```txt debian:bullseye
+<!-- ```txt ubuntu-20.04
 - Experience with complex, multi-layered, distributed systems.
 - Being a self starter with the ability to work effectively in teams
 - Working knowledge of information security practices
