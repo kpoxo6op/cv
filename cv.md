@@ -64,7 +64,7 @@ employees.
 Bitbucket & Jira APIs, Kubernetes. Mentored a junior engineer in
 implementing the solution.
 
-### Fraedom (2019 - 2021) | acquired by [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
+### Fraedom (2019 - 2021) | now [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
 
 #### Responsibilities
 
