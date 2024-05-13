@@ -128,21 +128,4 @@ response efficiency, and eliminated error-prone manual labor through automation.
 
 References available upon request.
 
-[linkedin.com/in/kpoxo6op](https://linkedin.com/in/kpoxo6op) |
-[github.com/kpoxo6op](https://github.com/kpoxo6op) |
-[thennow.nz](https://thennow.nz)
-
-<!-- ```txt ncipollo/release-action@v1
-- Experience with complex, multi-layered, distributed systems.
-- Being a self starter with the ability to work effectively in teams
-- Working knowledge of information security practices
-- Experience building and maintaining services on public cloud
-- Experience using Terraform to manage cloud infrastructure (or equivalent -
-  Infrastructure as Code)
-- Demonstrated ability to manage & resolve service and operational problems,
-  including root cause analysis
-- Proven ability to own tasks, issues & plans and manage/ drive them through to completion
-- automate as much as possible, with a focus on GitOps/DevOps processes to create
-an agile, developer-friendly way of working.
-- remote team, pair programming, asynchronous communication, and good documentation.
-``` -->
+[BorisAsCode.com](https://borisascode.com)
