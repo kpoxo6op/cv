@@ -31,7 +31,7 @@ working, pair programming, asynchronous communication and good documentation.
 
 ## Career
 
-### Westpac New Zealand (June 2021 - Current) | [westpac.co.nz](https://westpac.co.nz/)
+### Platform Engineer | Westpac New Zealand (June 2021 - Current) | [westpac.co.nz](https://westpac.co.nz/)
 
 #### Responsibilities
 
@@ -64,7 +64,7 @@ employees.
 Bitbucket & Jira APIs, Kubernetes. Mentored a junior engineer in
 implementing the solution.
 
-### Fraedom (2019 - 2021) | now [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
+### Platform Engineer | Fraedom (2019 - 2021) | now [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
 
 #### Responsibilities
 
@@ -84,7 +84,7 @@ packaging functionality. Developed a PowerShell module for automating the
 collection, compression, and FTP transfer of release bundles to production
 servers.
 
-### Healthlink (2017 - 2019) | [healthlink.co.nz](https://healthlink.co.nz)
+### Applications Engineer | Healthlink (2017 - 2019) | [healthlink.co.nz](https://healthlink.co.nz)
 
 #### Responsibilities
 
@@ -104,7 +104,7 @@ service with Apigee, Docker, PHP, Apache.
 incorporate new support features and development tools that improved upon
 previous versions.
 
-### Two Degrees Mobile (2012 - 2017) | [2degrees.nz](https://2degrees.nz)
+### Applications Engineer | Two Degrees Mobile (2012 - 2017) | [2degrees.nz](https://2degrees.nz)
 
 #### Responsibilities
 
