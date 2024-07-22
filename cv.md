@@ -9,7 +9,7 @@ block-headings: true
 # Boris Khasanov
 
 [bouresk@outlook.com](mailto:bouresk@outlook.com) |
-[64221712798](tel:64221712798) | Auckland, NZ
+[64221712798](tel:64221712798) | Auckland, NZ | NZ Passport
 
 Platform/DevOps/SRE Engineer with a focus on automation and continuous
 improvement. Skilled in managing complex distributed systems. I value remote
