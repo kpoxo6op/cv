@@ -30,6 +30,13 @@ working, pair programming, asynchronous communication and good documentation.
 | Databases               | Oracle, MSSQL, MongoDB |
 
 ## Career
+<!-- 
+Senior Platform Engineer | Westpac New Zealand (or somewhere else)
+Unicorn - overdelivered plartofm on AWS, noticed security issues and raised them, designed proposed changes, wrote tests, state of art docs
+Evangelised ES platform over road show in Auckland - lead and drove preso prep, delivered out of the box preso format, lead QA session
+Created simple and efficient braindead doc writing style in BitBucket creatively working around bitbucket on-prem limitation, demoed the approach, sold it to the team
+AWS EBA - lead team developing the UX wit streamlit, overdelivered app features, presented the app at checkings in public, prepared the presenters for the preso.
+-->
 
 ### Platform Engineer | Westpac New Zealand (June 2021 - Current) | [westpac.co.nz](https://westpac.co.nz/)
 
