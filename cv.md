@@ -30,46 +30,43 @@ working, pair programming, asynchronous communication and good documentation.
 | Databases               | Oracle, MSSQL, MongoDB |
 
 ## Career
-<!-- 
-Senior Platform Engineer | Westpac New Zealand (or somewhere else)
-Unicorn - overdelivered plartofm on AWS, noticed security issues and raised them, designed proposed changes, wrote tests, state of art docs
-Evangelised ES platform over road show in Auckland - lead and drove preso prep, delivered out of the box preso format, lead QA session
-Created simple and efficient braindead doc writing style in BitBucket creatively working around bitbucket on-prem limitation, demoed the approach, sold it to the team
-AWS EBA - lead team developing the UX wit streamlit, overdelivered app features, presented the app at checkings in public, prepared the presenters for the preso.
--->
 
 ### Platform Engineer | Westpac New Zealand (June 2021 - Current) | [westpac.co.nz](https://westpac.co.nz/)
 
 #### Responsibilities
 
-- Design, implement, and maintain secure and scalable event streaming platform.
-- Create tools for automating deployment, monitoring and operations of the
-overall platform.
-- Provide ongoing maintenance and support of internal tools, improve system
-health and reduce toil.
-- Pair with other engineers to attack complex problems and share knowledge.
-- Provide detailed and constructive design and code reviews.
-- Drive the improvement of the operational processes and proactively identify
-and eliminate toil.
-- Provide advice, guidance, and assistance to less experienced colleagues as
-required.
-- Participate in on-call rotation to provide application support, incident
-response, and troubleshooting.
-- Own incident response and management, leading the triage and troubleshooting
-efforts during the incident and conducting a postmortem afterwards.
+- Architect, implement, and maintain secure and scalable event-streaming
+  solutions using Confluent Kafka, AWS, and Terraform.
+- Automate platform deployment and operations through Jenkins pipelines,
+  Terragrunt-based infrastructure as code, and custom tooling.
+- Provide ongoing maintenance and support for internal tools, monitoring system
+  health and reducing operational toil.
+- Collaborate with cross-functional teams to define user stories, acceptance
+  criteria, and estimates for platform enhancements.
+- Conduct design and code reviews, pair with colleagues to tackle complex
+  technical challenges, and mentor junior engineers.
+- Drive improvements in operational processes, proactively identifying and
+  eliminating repetitive manual work.
+- Serve as part of an on-call rotation, leading incident response,
+  troubleshooting, and postmortems.
+- Advise and guide less experienced team members, sharing knowledge and best
+  practices to foster skill growth.
 
 #### Achievements
 
-- Implemented BYO Cloudbees build agents on AWS and Confluent Cloud for a newly
-developed platform, facilitating streamlined access to AWS managed accounts.
-- Initiated and led discussions with stakeholders across multiple departments to
-address the duration of mandatory learning modules organization-wide.
-Successfully advocated for a reduction in both the number of and length of
-required modules, ultimately halving the mandatory training time for hundreds of
-employees.
-- Developed a proof of concept for automated platform upgrade using bash,
-Bitbucket & Jira APIs, Kubernetes. Mentored a junior engineer in
-implementing the solution.
+- Led the rollout of “Project Unicorn,” an AWS-based data platform, using a
+  layered Terragrunt approach to support multiple data domains and ensure
+  consistent best practices.  
+- Built bring-your-own CloudBees build agents on AWS, simplifying access to
+  managed accounts and reducing reliance on on-prem solutions.  
+- Negotiated with multiple departments to streamline mandatory training, cutting
+  overall module length by 50% and saving significant staff hours.  
+- Developed a proof of concept for automated platform upgrades using Bash,
+  Bitbucket, Jira APIs, and Kubernetes; mentored a junior engineer through
+  production implementation.  
+- Created “BrokerRolla” for Confluent Kafka deployments, automating broker
+  rolling in Kubernetes to reduce manual intervention and accelerate platform
+  updates.
 
 ### Platform Engineer | Fraedom (2019 - 2021) | now [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
 
