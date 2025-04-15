@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "cv.md" # Triggers the workflow only when cv.md is modified
+  workflow_dispatch:
 
 jobs:
   convert:
