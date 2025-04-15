@@ -21,13 +21,10 @@ working, pair programming, asynchronous communication and good documentation.
 |------------------------:|----------------------------------------------------------------|
 | Core Infrastructure     | Linux, Windows, Kubernetes, Docker, Helm |
 | Cloud                   | AWS, Confluent Cloud, GCP, Azure |
-| DevOps & Automation     | GitOps, Jenkins, GitHub Actions, TeamCity |
+| DevOps & Automation     | GitOps, Jenkins, GitHub Actions, ArgoCD, HashiCorp Vault |
 | Infra as Code           | Terraform, Terragrunt |
-| Security                | HashiCorp Vault, Venafi, Snyk |
-| Coding                  | Bash, Python, PowerShell, Java, Typescript, Node JS, React |
+| Coding                  | Bash, Python, PowerShell, React |
 | Observability           | Prometheus, Grafana, Splunk, Dynatrace, ELK Stack, PagerDuty |
-| Software Products       | Apache Kafka, IBM DatapPower, Rhapsody, Redis, Jira, GitLab CI |
-| Databases               | Oracle, MSSQL, MongoDB |
 
 ## Career
 
@@ -56,14 +53,14 @@ working, pair programming, asynchronous communication and good documentation.
 
 - Led the rollout of “Project Unicorn,” an AWS-based data platform, using a
   layered Terragrunt approach to support multiple data domains and ensure
-  consistent best practices.  
+  consistent best practices.
 - Built bring-your-own CloudBees build agents on AWS, simplifying access to
-  managed accounts and reducing reliance on on-prem solutions.  
+  managed accounts and reducing reliance on on-prem solutions.
 - Negotiated with multiple departments to streamline mandatory training, cutting
-  overall module length by 50% and saving significant staff hours.  
+  overall module length by 50% and saving significant staff hours.
 - Developed a proof of concept for automated platform upgrades using Bash,
   Bitbucket, Jira APIs, and Kubernetes; mentored a junior engineer through
-  production implementation.  
+  production implementation.
 - Created “BrokerRolla” for Confluent Kafka deployments, automating broker
   rolling in Kubernetes to reduce manual intervention and accelerate platform
   updates.
