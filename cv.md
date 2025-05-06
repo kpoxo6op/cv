@@ -28,7 +28,24 @@ working, pair programming, asynchronous communication and good documentation.
 
 ## Career
 
-### Platform Engineer | Westpac New Zealand (June 2021 - Current) | [westpac.co.nz](https://westpac.co.nz/)
+### Senior Platform Engineer | Westpac New Zealand (May 2025 - Current) | [westpac.co.nz](https://westpac.co.nz/)
+
+#### Responsibilities
+
+- Drive improvements in operational processes, proactively identifying and
+  eliminating repetitive manual work.
+- Collaborate with cross-functional teams to define user stories, acceptance
+  criteria, and estimates for platform enhancements.
+- Advise and guide less experienced team members, sharing knowledge and best
+  practices to foster skill growth.
+
+#### Achievements
+
+- Led the rollout of “Project Unicorn,” an AWS-based data platform, using a
+  layered Terragrunt approach to support multiple data domains and ensure
+  consistent best practices.
+
+### Platform Engineer | Westpac New Zealand (June 2021 - May 2025) | [westpac.co.nz](https://westpac.co.nz/)
 
 #### Responsibilities
 
@@ -38,22 +55,13 @@ working, pair programming, asynchronous communication and good documentation.
   Terragrunt-based infrastructure as code, and custom tooling.
 - Provide ongoing maintenance and support for internal tools, monitoring system
   health and reducing operational toil.
-- Collaborate with cross-functional teams to define user stories, acceptance
-  criteria, and estimates for platform enhancements.
 - Conduct design and code reviews, pair with colleagues to tackle complex
   technical challenges, and mentor junior engineers.
-- Drive improvements in operational processes, proactively identifying and
-  eliminating repetitive manual work.
 - Serve as part of an on-call rotation, leading incident response,
   troubleshooting, and postmortems.
-- Advise and guide less experienced team members, sharing knowledge and best
-  practices to foster skill growth.
 
 #### Achievements
 
-- Led the rollout of “Project Unicorn,” an AWS-based data platform, using a
-  layered Terragrunt approach to support multiple data domains and ensure
-  consistent best practices.
 - Built bring-your-own CloudBees build agents on AWS, simplifying access to
   managed accounts and reducing reliance on on-prem solutions.
 - Negotiated with multiple departments to streamline mandatory training, cutting
