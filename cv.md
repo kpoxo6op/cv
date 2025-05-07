@@ -24,7 +24,7 @@ working, pair programming, asynchronous communication and good documentation.
 | DevOps & Automation     | GitOps, Jenkins, GitHub Actions, ArgoCD, HashiCorp Vault |
 | Infra as Code           | Terraform, Terragrunt |
 | Coding                  | Bash, Python, PowerShell, React |
-| Observability           | Prometheus, Grafana, Splunk, Dynatrace, ELK Stack, PagerDuty |
+| Observability           | Prometheus, Grafana, Splunk, Dynatrace |
 
 ## Career
 
