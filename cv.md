@@ -9,7 +9,7 @@ block-headings: true
 # Boris Khasanov
 
 [bouresk@outlook.com](mailto:bouresk@outlook.com) |
-[64221712798](tel:64221712798) | Auckland, NZ | NZ Passport
+[64221712798](tel:64221712798) | [borisAsCode.com](https://borisascode.com) | Auckland, NZ | NZ Passport
 
 Platform/DevOps/SRE Engineer with a focus on automation and continuous
 improvement. Skilled in managing complex distributed systems. I value remote
@@ -19,12 +19,13 @@ working, pair programming, asynchronous communication and good documentation.
 
 | Category                | Skills |
 |------------------------:|----------------------------------------------------------------|
-| Core Infrastructure     | Linux, Windows, Kubernetes, Docker, Helm |
-| Cloud                   | AWS, Confluent Cloud, GCP, Azure |
-| DevOps & Automation     | GitOps, Jenkins, GitHub Actions, ArgoCD, HashiCorp Vault |
+| Core Infrastructure     | Linux, Kubernetes |
+| Cloud                   | AWS, Confluent Cloud |
+| DevOps & Automation     | GitOps, CloudBees, GitHub Actions, ArgoCD, HashiCorp Vault, Docker, Helm |
 | Infra as Code           | Terraform, Terragrunt |
-| Coding                  | Bash, Python, PowerShell, React |
-| Observability           | Prometheus, Grafana, Splunk, Dynatrace |
+| Coding                  | Bash, Python, PowerShell |
+| Observability           | Prometheus, Grafana, Splunk, PagerDuty |
+| Streaming               | Kafka |
 
 ## Career
 
@@ -41,6 +42,21 @@ working, pair programming, asynchronous communication and good documentation.
 
 #### Achievements
 
+- Migrated over 20 internal customers on the Confluent Kafka event streaming
+  platform to new data centers in a six-month project. Defined the migration
+  strategy, authored technical runbooks, developed pipelines and tooling,
+  managed customer communications, liaised with Confluent on Kafka intricacies,
+  and executed the end-to-end rollout from Sandpit to Production.
+- Led a team of engineers assembled at a 3‑day hackathon to build innovative
+  mobile apps for the future of banking, based on my Money Streaming concept.
+  Won the Wild Card award for most innovative idea. Accelerated AI adoption at
+  the bank by demonstrating rapid prototyping with V0.dev and ChatGPT.
+- Designed and delivered Skibidi and 20Weeks On-Call (Next.js, PagerDuty,
+  Kubernetes), creating chapter-wide impact. Skibidi removed manual timesheet
+  entry by importing and transforming on-call data from PagerDuty, saving
+  significant effort on data entry and compliance checks. 20Weeks On-Call gave
+  leaders instant visibility into engineers with excessive on-call loads,
+  eliminating slow manual reviews.
 - Led the rollout of “Project Unicorn,” an AWS-based data platform, using a
   layered Terragrunt approach to support multiple data domains and ensure
   consistent best practices.
@@ -100,8 +116,6 @@ servers.
 - Supported HealthLink's core services - Messaging System, Provider Referrals,
 and SmartForms, ensuring robust performance and high availability for over
 15,000 medical organizations across Australia and New Zealand.
-- Implemented system enhancements and led off-hours deployments for critical
-applications, participating in a 24/7 on-call support roster.
 
 #### Achievements
 
@@ -109,9 +123,6 @@ applications, participating in a 24/7 on-call support roster.
 PowerShell) to automate updates for 30+ non-production machines.
 - Developed a tool for adding developer accounts to HealthLink Online Directory
 service with Apigee, Docker, PHP, Apache.
-- Upgraded integration engine instances (Rhapsodies), working with vendors to
-incorporate new support features and development tools that improved upon
-previous versions.
 
 ### Applications Engineer | Two Degrees Mobile (2012 - 2017) | [2degrees.nz](https://2degrees.nz)
 
@@ -119,10 +130,6 @@ previous versions.
 
 - Oversaw 24x7 support and maintenance for CRM, payment processing systems, and
 self-care portals, ensuring continuous operation and reliability.
-- Implemented system updates and monitored performance to ensure high service
-availability.
-- Provided training and mentorship to team members on various technical
-components and best practices.
 
 #### Achievements
 
