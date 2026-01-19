@@ -42,6 +42,12 @@ working, pair programming, asynchronous communication and good documentation.
 
 #### Achievements
 
+- Owned the multi-environment Confluent Platform ZooKeeper → KRaft migration.
+  Mapped each Confluent migration phase and verification step into repeatable
+  Git tags and CloudBees pipelines, eliminating manual operational work.
+  Authored a concise two-page, reversible runbook with idempotent,
+  rollback-safe, click-through steps. Introduced isolated KRaft controllers
+  and added dedicated monitoring dashboards and alerting.
 - Migrated over 20 internal customers on the Confluent Kafka event streaming
   platform to new data centers in a six-month project. Defined the migration
   strategy, authored technical runbooks, developed pipelines and tooling,
@@ -145,3 +151,4 @@ response efficiency, and eliminated error-prone manual labor through automation.
 References available upon request.
 
 [BorisAsCode.com](https://borisascode.com)
+
