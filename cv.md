@@ -33,21 +33,26 @@ working, pair programming, asynchronous communication and good documentation.
 
 #### Responsibilities
 
-- Drive improvements in operational processes, proactively identifying and
-  eliminating repetitive manual work.
+- Set engineering standards for the team: conventional commits, changelog
+  automation, idempotent and rollback-safe pipelines, and concise runbooks
+  reviewers can follow without the original author.
 - Collaborate with cross-functional teams to define user stories, acceptance
   criteria, and estimates for platform enhancements.
-- Advise and guide less experienced team members, sharing knowledge and best
-  practices to foster skill growth.
+- Mentor engineers through design and code review, pair programming, and
+  written guidance, and represent Event Streaming in cross-team forums with
+  Cloud, Security, Vault, Splunk and Confluent vendor contacts.
 
 #### Achievements
 
-- Owned the multi-environment Confluent Platform ZooKeeper → KRaft migration.
-  Mapped each Confluent migration phase and verification step into repeatable
-  Git tags and CloudBees pipelines, eliminating manual operational work.
-  Authored a concise two-page, reversible runbook with idempotent,
-  rollback-safe, click-through steps. Introduced isolated KRaft controllers
-  and added dedicated monitoring dashboards and alerting.
+- Drove the ZooKeeper → KRaft migration to production across both data
+  centres, with on-prem and cloud witness controllers in lockstep. Mapped
+  each Confluent migration phase into repeatable Git tags and CloudBees
+  pipelines, authored a concise reversible runbook with idempotent,
+  rollback-safe steps, and added dedicated monitoring and alerting so any
+  on-call engineer can execute or reverse a phase unattended.
+- Built a new cloud-hosted controller platform end to end and took it from
+  Dev to Prod, with hardened VMs, short-lived credentials, automated
+  certificates and a resilient deployment pipeline.
 - Migrated over 20 internal customers on the Confluent Kafka event streaming
   platform to new data centers in a six-month project. Defined the migration
   strategy, authored technical runbooks, developed pipelines and tooling,
