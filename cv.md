@@ -19,8 +19,8 @@ working, pair programming, asynchronous communication and good documentation.
 
 | Category                | Skills |
 |------------------------:|----------------------------------------------------------------|
-| Core Infrastructure     | Linux, Kubernetes |
-| Cloud                   | AWS, Confluent Cloud |
+| Core Infrastructure     | Linux, Kubernetes, OpenShift |
+| Cloud                   | Azure, AWS, Confluent Cloud |
 | DevOps & Automation     | GitOps, CloudBees, GitHub Actions, ArgoCD, HashiCorp Vault, Docker, Helm |
 | Infra as Code           | Terraform, Terragrunt |
 | Coding                  | Bash, Python, PowerShell |
@@ -33,44 +33,44 @@ working, pair programming, asynchronous communication and good documentation.
 
 #### Responsibilities
 
-- Set engineering standards for the team: conventional commits, changelog
-  automation, idempotent and rollback-safe pipelines, and concise runbooks
-  reviewers can follow without the original author.
-- Collaborate with cross-functional teams to define user stories, acceptance
-  criteria, and estimates for platform enhancements.
+- Set engineering standards for the team: conventional commits, automated
+  changelogs, idempotent and rollback-safe pipelines, and concise runbooks a
+  reviewer can follow without the original author.
+- Partner with cross-functional teams to shape user stories, acceptance
+  criteria, and estimates for platform work.
 - Mentor engineers through design and code review, pair programming, and
   written guidance, and represent Event Streaming in cross-team forums with
   Cloud, Security, Vault, Splunk and Confluent vendor contacts.
 
 #### Achievements
 
-- Drove the ZooKeeper → KRaft migration to production across both data
-  centres, with on-prem and cloud witness controllers in lockstep. Mapped
-  each Confluent migration phase into repeatable Git tags and CloudBees
-  pipelines, authored a concise reversible runbook with idempotent,
-  rollback-safe steps, and added dedicated monitoring and alerting so any
-  on-call engineer can execute or reverse a phase unattended.
-- Built a new cloud-hosted controller platform end to end and took it from
-  Dev to Prod, with hardened VMs, short-lived credentials, automated
-  certificates and a resilient deployment pipeline.
-- Migrated over 20 internal customers on the Confluent Kafka event streaming
-  platform to new data centers in a six-month project. Defined the migration
-  strategy, authored technical runbooks, developed pipelines and tooling,
-  managed customer communications, liaised with Confluent on Kafka intricacies,
-  and executed the end-to-end rollout from Sandpit to Production.
-- Led a team of engineers assembled at a 3‑day hackathon to build innovative
-  mobile apps for the future of banking, based on my Money Streaming concept.
-  Won the Wild Card award for most innovative idea. Accelerated AI adoption at
-  the bank by demonstrating rapid prototyping with V0.dev and ChatGPT.
+- Owned the ZooKeeper to KRaft migration end to end, taking production brokers
+  across both data centres in lockstep with on-prem and cloud witness
+  controllers. Mapped each Confluent migration phase to repeatable Git tags and
+  CloudBees pipelines, wrote a reversible runbook with idempotent, rollback-safe
+  steps, and built dedicated dashboards and alerting so any on-call engineer can
+  run or reverse a phase unattended.
+- Built a cloud-hosted KRaft controller platform from first commit to
+  production, with CIS-hardened VMs, customer-managed-key disk encryption,
+  short-lived Vault credentials, automated certificate renewal, and a pipeline
+  resilient to transient proxy and state-lock failures.
+- Migrated over 20 internal customers on the Confluent Kafka platform to new
+  data centres in a six-month programme. Defined the migration strategy,
+  authored technical runbooks, built the pipelines and tooling, ran customer
+  communications, liaised with Confluent on Kafka internals, and executed the
+  rollout from Sandpit to Production.
+- Led a team assembled at a 3-day hackathon to prototype mobile banking apps
+  around my Money Streaming concept, winning the Wild Card award for most
+  innovative idea and accelerating AI adoption at the bank by demonstrating
+  rapid prototyping with V0.dev and ChatGPT.
 - Designed and delivered Skibidi and 20Weeks On-Call (Next.js, PagerDuty,
-  Kubernetes), creating chapter-wide impact. Skibidi removed manual timesheet
-  entry by importing and transforming on-call data from PagerDuty, saving
-  significant effort on data entry and compliance checks. 20Weeks On-Call gave
-  leaders instant visibility into engineers with excessive on-call loads,
-  eliminating slow manual reviews.
-- Led the rollout of “Project Unicorn,” an AWS-based data platform, using a
-  layered Terragrunt approach to support multiple data domains and ensure
-  consistent best practices.
+  Kubernetes) for chapter-wide impact. Skibidi removed manual timesheet entry
+  by importing and transforming PagerDuty on-call data, cutting data-entry and
+  compliance effort; 20Weeks On-Call gave leaders instant visibility into
+  engineers carrying excessive on-call load, replacing slow manual reviews.
+- Led the rollout of "Project Unicorn," an AWS-based data platform, using a
+  layered Terragrunt approach to support multiple data domains with consistent
+  best practices.
 
 ### Platform Engineer | Westpac New Zealand (June 2021 - May 2025) | [westpac.co.nz](https://westpac.co.nz/)
 
