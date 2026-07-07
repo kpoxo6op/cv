@@ -8,152 +8,98 @@ block-headings: true
 
 # Boris Khasanov
 
-[bouresk@outlook.com](mailto:bouresk@outlook.com) |
-[64221712798](tel:64221712798) | [borisAsCode.com](https://borisascode.com) | Auckland, NZ | NZ Passport
+**Senior Platform / DevOps / SRE Engineer**
 
-Platform/DevOps/SRE Engineer with a focus on automation and continuous
-improvement. Skilled in managing complex distributed systems. I value remote
-working, pair programming, asynchronous communication and good documentation.
+[bouresk@outlook.com](mailto:bouresk@outlook.com) |
+[+64 22 171 2798](tel:64221712798) | [borisAsCode.com](https://borisascode.com) |
+Auckland, NZ | NZ citizen
+
+Platform engineer with 13+ years building and running mission-critical
+distributed systems across cloud and on-prem. I take end-to-end ownership of
+ambiguous, high-stakes platform work in regulated, change-controlled
+environments, spanning infrastructure-as-code, CI/CD, security and
+observability, and deliver it to run unattended. Deep specialism in event
+streaming and Kubernetes, with a strong bias for automation and clear
+documentation.
 
 ## Skills
 
-| Category                | Skills |
-|------------------------:|----------------------------------------------------------------|
-| Core Infrastructure     | Linux, Kubernetes, OpenShift |
-| Cloud                   | Azure, AWS, Confluent Cloud |
-| DevOps & Automation     | GitOps, CloudBees, GitHub Actions, ArgoCD, HashiCorp Vault, Docker, Helm |
-| Infra as Code           | Terraform, Terragrunt |
-| Coding                  | Bash, Python, PowerShell |
-| Observability           | Prometheus, Grafana, Splunk, PagerDuty |
-| Streaming               | Kafka |
+| Category | Skills |
+|----------------------:|--------------------------------------------------|
+| Cloud                | Azure, AWS, Confluent Cloud |
+| Containers           | Kubernetes, OpenShift, Helm, Confluent for Kubernetes (CFK), Docker |
+| Infra as Code        | Terraform, Terraform Enterprise, Terragrunt |
+| CI/CD & GitOps       | CloudBees/Jenkins, GitHub Actions, ArgoCD, Renovate |
+| Confluent Kafka      | KRaft, Kafka Connect, Schema Registry, ksqlDB |
+| Security & Secrets   | HashiCorp Vault, Venafi, CIS hardening, BYOK, RHEL 9 |
+| Observability        | Prometheus, Grafana, Thanos, Alertmanager, Splunk, PagerDuty |
 
-## Career
+## Experience
 
-### Senior Platform Engineer | Westpac New Zealand (May 2025 - Current) | [westpac.co.nz](https://westpac.co.nz/)
+### Senior Platform Engineer, Westpac New Zealand
 
-#### Responsibilities
+**May 2025 – Present · Event Streaming · Auckland** · [westpac.co.nz](https://westpac.co.nz/)
 
-- Set engineering standards for the team: conventional commits, automated
-  changelogs, idempotent and rollback-safe pipelines, and concise runbooks a
-  reviewer can follow without the original author.
-- Partner with cross-functional teams to shape user stories, acceptance
-  criteria, and estimates for platform work.
-- Mentor engineers through design and code review, pair programming, and
-  written guidance, and represent Event Streaming in cross-team forums with
-  Cloud, Security, Vault, Splunk and Confluent vendor contacts.
+Ran and modernised the bank's business-critical Confluent Kafka
+platform across on-prem OpenShift and Azure.
 
-#### Achievements
+- **Owned the ZooKeeper-to-KRaft migration end to end** for a stretched
+  12-broker cluster across two data centres: Sandpit to Production, all five
+  Confluent phases, zero customer data loss. Mapped each phase to repeatable Git
+  tags and CloudBees pipelines and wrote reversible, idempotent runbooks so any
+  on-call engineer can run or roll back a phase unattended.
+- **Built a greenfield "2.5 data centre" KRaft controller platform on Azure**
+  from first commit to Production: CIS-hardened RHEL 9 VMs, short-lived
+  Vault-issued Azure credentials, automated Venafi certificate renewal, and
+  persistent metadata disks with idempotent VM rebuild.
+- **Pioneered agentic AI delivery and drove its adoption across the engineering
+  chapter**: wired 9+ enterprise systems (Jira, Bitbucket, CloudBees,
+  ServiceNow, Splunk, Azure) into GitHub Copilot through reusable skills, and
+  built a self-correcting agent loop that files the ticket, applies Terraform via
+  CloudBees, verifies the result and raises human-reviewable PRs. Used it to
+  stand up a stretched dual-DC Kafka cluster in a day.
+- **Set engineering standards** (conventional commits, automated changelogs,
+  rollback-safe pipelines, runbooks), mentored engineers, and represented Event
+  Streaming to Cloud, Security, Vault and the Confluent vendor relationship.
 
-- Owned the ZooKeeper to KRaft migration end to end, taking production brokers
-  across both data centres in lockstep with on-prem and cloud witness
-  controllers. Mapped each Confluent migration phase to repeatable Git tags and
-  CloudBees pipelines, wrote a reversible runbook with idempotent, rollback-safe
-  steps, and built dedicated dashboards and alerting so any on-call engineer can
-  run or reverse a phase unattended.
-- Built a cloud-hosted KRaft controller platform from first commit to
-  production, with CIS-hardened VMs, customer-managed-key disk encryption,
-  short-lived Vault credentials, automated certificate renewal, and a pipeline
-  resilient to transient proxy and state-lock failures.
-- Migrated over 20 internal customers on the Confluent Kafka platform to new
-  data centres in a six-month programme. Defined the migration strategy,
-  authored technical runbooks, built the pipelines and tooling, ran customer
-  communications, liaised with Confluent on Kafka internals, and executed the
-  rollout from Sandpit to Production.
-- Led a team assembled at a 3-day hackathon to prototype mobile banking apps
-  around my Money Streaming concept, winning the Wild Card award for most
-  innovative idea and accelerating AI adoption at the bank by demonstrating
-  rapid prototyping with V0.dev and ChatGPT.
-- Designed and delivered Skibidi and 20Weeks On-Call (Next.js, PagerDuty,
-  Kubernetes) for chapter-wide impact. Skibidi removed manual timesheet entry
-  by importing and transforming PagerDuty on-call data, cutting data-entry and
-  compliance effort; 20Weeks On-Call gave leaders instant visibility into
-  engineers carrying excessive on-call load, replacing slow manual reviews.
-- Led the rollout of "Project Unicorn," an AWS-based data platform, using a
-  layered Terragrunt approach to support multiple data domains with consistent
-  best practices.
+### Platform Engineer, Westpac New Zealand
 
-### Platform Engineer | Westpac New Zealand (June 2021 - May 2025) | [westpac.co.nz](https://westpac.co.nz/)
+**June 2021 – May 2025 · Event Streaming · Auckland** · [westpac.co.nz](https://westpac.co.nz/)
 
-#### Responsibilities
+Architected, automated and operated the bank's event-streaming platform on
+Confluent Kafka across on-prem, AWS and Confluent Cloud.
 
-- Architect, implement, and maintain secure and scalable event-streaming
-  solutions using Confluent Kafka, AWS, and Terraform.
-- Automate platform deployment and operations through Jenkins pipelines,
-  Terragrunt-based infrastructure as code, and custom tooling.
-- Provide ongoing maintenance and support for internal tools, monitoring system
-  health and reducing operational toil.
-- Conduct design and code reviews, pair with colleagues to tackle complex
-  technical challenges, and mentor junior engineers.
-- Serve as part of an on-call rotation, leading incident response,
-  troubleshooting, and postmortems.
+- **Delivered a six-month programme migrating 20+ internal customers to new data
+  centres** on a stretched cluster: strategy, unified deployment pipeline,
+  topic-placement tooling (Kafka Self-Balancing rebalancer), runbooks, customer
+  comms, and the Sandpit-to-Production cut-over.
+- **Led the Confluent Cloud migration** off on-prem Kafka: AWS EKS + Confluent
+  Cloud over PrivateLink/VPC endpoints, cross-cluster linking with consumer-offset
+  sync, private Schema Registry, BYOK and RBAC, with self-service migration docs
+  and a `make workload` onboarding target so customers could migrate themselves.
+- **Built bring-your-own CloudBees EC2 build agents** with IAM-based access,
+  removing a manual SSO step and on-prem dependency, and moved pipeline secrets
+  from Vault to AWS Secrets Manager for cloud segregation.
+- **Built "BrokerRolla"** (automated rolling-restart for Confluent Kafka on
+  Kubernetes) and shipped internal products Skibidi and 20Weeks On-Call
+  (Next.js, PagerDuty, Kubernetes) that removed manual on-call and timesheet toil.
+- **Ran 24×7 on-call** for the platform, leading incident response,
+  troubleshooting and blameless postmortems.
 
-#### Achievements
+### Earlier career
 
-- Built bring-your-own CloudBees build agents on AWS, simplifying access to
-  managed accounts and reducing reliance on on-prem solutions.
-- Negotiated with multiple departments to streamline mandatory training, cutting
-  overall module length by 50% and saving significant staff hours.
-- Developed a proof of concept for automated platform upgrades using Bash,
-  Bitbucket, Jira APIs, and Kubernetes; mentored a junior engineer through
-  production implementation.
-- Created “BrokerRolla” for Confluent Kafka deployments, automating broker
-  rolling in Kubernetes to reduce manual intervention and accelerate platform
-  updates.
-
-### Platform Engineer | Fraedom (2019 - 2021) | now [Visa](https://developer.visa.com/use-cases/partner-showcase/fraedom)
-
-#### Responsibilities
-
-- Developed and maintained Octopus Deploy pipelines and configuration to ensure
-reliable software deployments.
-- Provided support to developers for deployment across various environments and
-assisted the operations team with release troubleshooting.
-- Influenced the adoption of new practices and technologies while streamlining
-company processes to reduce constraints and handovers, enhancing operational
-efficiency.
-
-#### Achievements
-
-- Created an Octopus Deploy pipeline for offline deployments. Collaborated with
-Ops team to replace the legacy manual repackaging process with Octopus's native
-packaging functionality. Developed a PowerShell module for automating the
-collection, compression, and FTP transfer of release bundles to production
-servers.
-
-### Applications Engineer | Healthlink (2017 - 2019) | [healthlink.co.nz](https://healthlink.co.nz)
-
-#### Responsibilities
-
-- Supported HealthLink's core services - Messaging System, Provider Referrals,
-and SmartForms, ensuring robust performance and high availability for over
-15,000 medical organizations across Australia and New Zealand.
-
-#### Achievements
-
-- Designed and launched the WASUP (Windows Automatic System Updates with
-PowerShell) to automate updates for 30+ non-production machines.
-- Developed a tool for adding developer accounts to HealthLink Online Directory
-service with Apigee, Docker, PHP, Apache.
-
-### Applications Engineer | Two Degrees Mobile (2012 - 2017) | [2degrees.nz](https://2degrees.nz)
-
-#### Responsibilities
-
-- Oversaw 24x7 support and maintenance for CRM, payment processing systems, and
-self-care portals, ensuring continuous operation and reliability.
-
-#### Achievements
-
-- Collaborated with cross-functional teams to develop a user-friendly operations
-framework (UFO) with Oracle DB, Shell scripts, SOAP, WSDL, and web frontend
-technologies.
-- Developed over 30 UFO tools that enabled Customer Care team to independently
-manage customer inquiries. This reduced Operations team involvement, improved
-response efficiency, and eliminated error-prone manual labor through automation.
+- **Platform Engineer, Fraedom (now Visa) · 2019–2021.** Built Octopus Deploy
+  pipelines, including an offline-deployment pipeline and a PowerShell module
+  automating release packaging and FTP transfer to production servers.
+- **Applications Engineer, HealthLink · 2017–2019.** Supported core
+  health-messaging services for 15,000+ medical organisations across AU/NZ; built
+  WASUP (PowerShell) to auto-update 30+ machines and an Apigee/Docker developer
+  onboarding tool.
+- **Applications Engineer, 2degrees · 2012–2017.** Ran 24×7 support for CRM,
+  payments and self-care systems; built 30+ "UFO" operations tools (Oracle,
+  Shell, SOAP) that let Customer Care self-serve and cut Operations workload.
 
 ## Other
 
-References available upon request.
-
-[BorisAsCode.com](https://borisascode.com)
+References available on request · [borisAsCode.com](https://borisascode.com)
 
