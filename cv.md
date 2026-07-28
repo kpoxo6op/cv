@@ -53,8 +53,8 @@ platform spanning two OpenShift data centres and Azure.
 - Delivered Enterprise ML infrastructure through CloudBees and Terraform
   pipelines, production Vault bootstrap, private Azure AI Speech endpoints and
   credential-propagation safeguards.
-- **Pioneered agentic AI delivery and drove its adoption across the engineering
-  chapter**: wired 9+ enterprise systems (Jira, Bitbucket, CloudBees,
+- Pioneered agentic AI delivery and drove its adoption across the engineering
+  chapter: wired 9+ enterprise systems (Jira, Bitbucket, CloudBees,
   ServiceNow, Splunk, Azure) into GitHub Copilot through reusable skills, and
   built a self-correcting agent loop that files the ticket, applies Terraform via
   CloudBees, verifies the result and raises human-reviewable PRs. Used it to
