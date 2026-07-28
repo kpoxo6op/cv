@@ -49,9 +49,10 @@ platform spanning two OpenShift data centres and Azure.
   monitoring.
 - Delivered the Azure witness as durable infrastructure with stable networking,
   CMK-encrypted persistent metadata, idempotent rebuilds, controller-ID
-  migration and dynamic Vault-backed credentials; also delivered CloudBees and
-  Terraform pipelines, production Vault bootstrap and private Azure AI Speech
-  endpoints for Enterprise ML.
+  migration and dynamic Vault-backed credentials.
+- Delivered Enterprise ML infrastructure through CloudBees and Terraform
+  pipelines, production Vault bootstrap, private Azure AI Speech endpoints and
+  credential-propagation safeguards.
 - **Pioneered agentic AI delivery and drove its adoption across the engineering
   chapter**: wired 9+ enterprise systems (Jira, Bitbucket, CloudBees,
   ServiceNow, Splunk, Azure) into GitHub Copilot through reusable skills, and
