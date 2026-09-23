@@ -1,7 +1,7 @@
 ---
 mainfont: "Latin Modern Mono Light"
 geometry:
-- margin=25mm
+- margin=20mm
 - heightrounded
 block-headings: true
 ---
