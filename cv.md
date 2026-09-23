@@ -1,7 +1,7 @@
 ---
 mainfont: "Latin Modern Mono Light"
 geometry:
-- margin=25mm
+- margin=20mm
 - heightrounded
 block-headings: true
 ---
@@ -33,6 +33,32 @@ regulated, change-controlled environments.
 | Observability        | Prometheus, Grafana, Thanos, Alertmanager, Splunk, PagerDuty |
 
 ## Experience
+
+### ASB Bank
+
+[asb.co.nz](https://www.asb.co.nz/) · Public API / API Shared Platform · Auckland
+
+#### Software Consultant - SRE (Contract) | August 2026 - Present
+
+Lead ASB's bank-wide response to Payments NZ client certificates that require
+CRL-based revocation checks, owning both the permanent edge design and an interim
+ASB-side control for regulated API traffic.
+
+- Introduced Akamai EdgeWorkers as the strategic request-time CRL enforcement
+  path. Lead the architecture with Akamai to reject revoked Payments NZ
+  certificates at the edge while preserving OCSP for existing client issuers.
+- Own the end-to-end introduction of Terraform for ASB's Akamai platform.
+  Consulted Security and gained the go-ahead for the approach; establishing
+  GitHub Actions runner connectivity to make edge changes reviewable and repeatable.
+- Architect and develop the interim ASB-side CRL control while EdgeWorkers is
+  tested: a scheduled GitHub Actions workflow to retrieve and validate the CRL,
+  match revoked certificates against client records and traffic, alert operators,
+  and disable affected clients in the database.
+- Lead automation of an assigned gMSA migration portfolio, replacing an opaque
+  manual procedure with repeatable account discovery, AD/SQL access checks,
+  Octopus/IIS cutover, runtime verification and rollback across environments.
+
+\newpage
 
 ### Westpac New Zealand
 
@@ -99,8 +125,3 @@ OpenShift, AWS and Confluent Cloud.
 - **Applications Engineer, 2degrees · 2012-2017.** Ran 24×7 support for CRM,
   payments and self-care systems; built 30+ "UFO" operations tools (Oracle,
   Shell, SOAP) that let Customer Care self-serve and cut Operations workload.
-
-## Other
-
-References available on request · [borisAsCode.com](https://borisascode.com)
-
