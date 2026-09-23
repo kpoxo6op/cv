@@ -124,8 +124,3 @@ OpenShift, AWS and Confluent Cloud.
 - **Applications Engineer, 2degrees · 2012-2017.** Ran 24×7 support for CRM,
   payments and self-care systems; built 30+ "UFO" operations tools (Oracle,
   Shell, SOAP) that let Customer Care self-serve and cut Operations workload.
-
-## Other
-
-References available on request · [borisAsCode.com](https://borisascode.com)
-
