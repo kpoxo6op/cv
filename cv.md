@@ -34,6 +34,29 @@ regulated, change-controlled environments.
 
 ## Experience
 
+### ASB Bank
+
+[asb.co.nz](https://www.asb.co.nz/) · Public API / API Shared Platform · Auckland
+
+#### Software Consultant - SRE (Contract) | August 2026 - Present
+
+Embedded as a senior SRE contractor in a regulated API platform team, turning
+complex identity, edge security and operations work into testable changes.
+
+- Mapped the Public API request path and operating dependencies across Akamai,
+  Kong, IIS/Octopus, Active Directory, SQL Server and Elastic, turning fragmented
+  platform knowledge into practical engineering and operations guidance.
+- Developed gMSA migration guidance around read-only account checks for shared API
+  services, covering identity discovery, database access, deployment order,
+  runtime verification, rollback and controlled retirement of legacy accounts.
+  Exposed cross-service dependencies and incomplete access before cutover.
+- Reviewed client-certificate validation for Payments NZ APIs, comparing
+  OCSP/CRL options at the Akamai edge and Kong gateway. Contributed security
+  analysis and QA criteria for revocation, logging, recovery and regression.
+- Documented Public API monitoring and alerting in Elastic, connecting
+  dashboards, event-level investigation, data freshness and alert routing to
+  practical operator checks.
+
 ### Westpac New Zealand
 
 [westpac.co.nz](https://westpac.co.nz/) · Event Streaming · Auckland
