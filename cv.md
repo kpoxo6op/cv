@@ -57,6 +57,8 @@ complex identity, edge security and operations work into testable changes.
   dashboards, event-level investigation, data freshness and alert routing to
   practical operator checks.
 
+\newpage
+
 ### Westpac New Zealand
 
 [westpac.co.nz](https://westpac.co.nz/) · Event Streaming · Auckland
