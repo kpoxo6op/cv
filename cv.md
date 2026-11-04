@@ -47,33 +47,33 @@ Self-directed lead contractor on one of ASB's largest internet-facing
 platforms, driving platform modernisation, security automation and engineering
 practice across squads.
 
-- **Kafka to Confluent Cloud.** Lead the migration of legacy Kafka on physical
+- Kafka to Confluent Cloud. Lead the migration of legacy Kafka on physical
   hosts across two data centres to Confluent Cloud. Agreed the phased plan with
   Kafka SMEs and the target platform team: topics, producers and consumers
   first, then the cluster, delivered through GitOps. Same pattern I delivered
   at Westpac.
-- **Kong Gateway to managed AKS.** Lead the move of the public-facing Kong
+- Kong Gateway to managed AKS. Lead the move of the public-facing Kong
   Gateway from self-built containers on RHEL 7 hosts in two data centres to
   the bank's managed Kong on AKS, with Ansible runbooks, GitOps, Elastic
   observability, rollback paths and a full audit trail. Removes a four-layer
   patching burden (gateway config, hosts, runtime scanning, code findings) from
   a small team.
-- **AI-driven vulnerability patching.** Engaged senior technology leadership
+- AI-driven vulnerability patching. Engaged senior technology leadership
   directly to get the squad onboarded among the first to the bank's AKS-hosted
   AI agents that check out code and patch vulnerabilities autonomously,
   replacing manual laptop patching. Engineers now remediate alongside the AI
   platform team.
-- **Akamai as code across the bank.** ASB has no central Akamai team and 3-4
+- Akamai as code across the bank. ASB has no central Akamai team and 3-4
   squads manage it by ClickOps. Building reusable Terraform modules (network
   lists, client lists, EdgeWorkers, rules) and a GitHub repository template,
   proven first on Public API, with Security, Akamai and network engineering on
   board. Demo at the fortnightly Akamai community to win adoption on merit,
   no mandate needed.
-- **Payments NZ certificate revocation.** Lead the bank-wide response to CRL
+- Payments NZ certificate revocation. Lead the bank-wide response to CRL
   checks for Payments NZ client certificates: EdgeWorkers enforcement at the
   edge, plus an interim scheduled control that validates the CRL, matches
   revoked certificates to client records, alerts and disables affected clients.
-- **Knowledge and ownership uplift.** Replaced two duplicated, unstructured
+- Knowledge and ownership uplift. Replaced two duplicated, unstructured
   wikis (content back to 2015) with a structured knowledge base. Used AI to
   assess the old wiki, built a Whisper pipeline turning recorded handovers with
   departing senior engineers into wiki pages, turned my own onboarding trail
