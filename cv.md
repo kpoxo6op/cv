@@ -14,11 +14,11 @@ block-headings: true
 [+64 22 171 2798](tel:64221712798) | [borisAsCode.com](https://borisascode.com) |
 Auckland, NZ | NZ citizen
 
-Platform engineer. 14 years in New Zealand banks, telcos and health IT. I look
-after the platforms other teams depend on: Kafka, API gateways, the edge and the
-pipelines around them. Most of my work is moving old, hand-built systems onto
-managed platforms without breaking anything, then writing it down so the next
-person doesn't have to ask me.
+Platform engineer with 14+ years building and running distributed systems
+across cloud and on-prem, most recently in regulated banking. I move legacy,
+hand-built platforms onto managed ones (Kafka to Confluent Cloud, Kong to AKS,
+Akamai to Terraform) and leave behind automation, monitoring, runbooks and a
+clear handover.
 
 ## Skills
 
@@ -32,7 +32,6 @@ person doesn't have to ask me.
 | Security             | Vault, CMK/BYOK, RBAC, Qualys, CIS hardening |
 | Edge & API           | Akamai, EdgeWorkers, Kong Gateway, F5 |
 | AI                   | GitHub Copilot agents, autonomous patching agents, Whisper |
-| Practice             | Runbooks, postmortems, wikis, DR planning |
 
 ## Experience
 
@@ -42,37 +41,31 @@ person doesn't have to ask me.
 
 #### Software Consultant - SRE (Contract) | August 2026 - Present
 
-Joined the Public API squad in August. Most of the work below I picked up
-myself.
+Platform modernisation, security automation and documentation for ASB's public
+API platform.
 
-- Moving legacy Kafka off physical hosts in two data centres to Confluent Cloud.
-  Agreed the plan with the Kafka owners and the target platform team: topics
-  first, then producers and consumers, then the cluster. GitOps all the way. I
-  did the same migration at Westpac.
-- Moving our public-facing Kong Gateway from home-built containers on RHEL 7 to
-  the bank's managed Kong on AKS. Ansible runbooks, GitOps, Elastic dashboards
-  and a rollback path for every step. One less custom stack for a small team to
-  patch.
-- Patching was a four-layer job done by hand: Ansible config, RHEL hosts,
-  Qualys sidecars and code scan findings. The bank was rolling out AI agents on
-  AKS that check out code and fix vulnerabilities on their own. I asked senior
-  leadership to put our squad on it early. We were one of the first squads in,
-  and manual patching went away.
-- ASB has no Akamai team. Three or four squads click around the Akamai console,
-  each in their own way. I am writing Terraform modules for network lists,
-  client lists, EdgeWorkers and rules, plus a GitHub repo template, and using
-  them for Public API first. Security agreed to the approach. Next is a demo at
-  the fortnightly Akamai community so other squads can copy it.
-- Payments NZ now requires CRL revocation checks on client certificates. I lead
-  ASB's response: an EdgeWorker that rejects revoked certificates at the edge,
-  and a scheduled GitHub Actions job that does the same checks on our side until
-  the edge version is live.
-- Found two wikis, one a copy of the other, with pages from 2015 to 2026 and no
-  structure. Started a new one instead of fixing the old one. Recorded handover
-  calls with senior engineers who had left the squad and turned them into wiki
-  pages with a Whisper pipeline. Turned my own onboarding notes into the
-  onboarding guide. Started writing postmortems from the Google template and got
-  others writing them too.
+- Lead the migration of legacy Kafka from physical hosts in two data centres to
+  Confluent Cloud. Agreed a phased GitOps plan with the Kafka owners and the
+  target platform team: topics, then producers and consumers, then the cluster.
+- Lead the migration of the public-facing Kong Gateway from self-built
+  containers on RHEL 7 hosts to the bank's managed Kong on AKS, with Ansible
+  runbooks, GitOps, Elastic monitoring, rollback at each step and an audit
+  trail.
+- Replaced manual vulnerability patching across Ansible config, RHEL hosts,
+  Qualys sidecars and code scan findings by getting the squad onboarded early
+  to the bank's AKS-hosted AI agents that patch code automatically.
+- Building Terraform modules (network lists, client lists, EdgeWorkers, rules)
+  and a GitHub repository template for Akamai, which 3-4 squads currently
+  manage by hand in the console. Agreed the approach with Security; piloting on
+  Public API before presenting it to the fortnightly Akamai community.
+- Lead ASB's response to Payments NZ CRL revocation checks for client
+  certificates: EdgeWorkers enforcement at the edge, plus an interim scheduled
+  GitHub Actions control that validates the CRL, matches revoked certificates
+  to client records and disables affected clients.
+- Rebuilt the team's documentation from two duplicated, unstructured wikis.
+  Recorded handovers with departing senior engineers and turned them into wiki
+  pages through a Whisper transcription pipeline, wrote the onboarding guide,
+  and introduced blameless postmortems based on Google's template.
 
 ### Westpac New Zealand
 
@@ -80,44 +73,53 @@ myself.
 
 #### Senior Platform Engineer | May 2025 - July 2026
 
-Ran a 12-broker Confluent Kafka platform across two OpenShift data centres and
-Azure.
+Led the modernisation and production reliability of a 12-broker Confluent Kafka
+platform spanning two OpenShift data centres and Azure.
 
-- Built the monitoring: Grafana, Thanos and Splunk dashboards for Kafka, KRaft
-  and broker logs, plus alerts and DLQ monitoring. It paid off when replication
-  broke after KRaft patching. I found the cause, brought the brokers and Kafka
-  Connect back, and wrote the PIR.
-- Led the move from ZooKeeper to KRaft. Redesigned the controller quorum across
-  three failure domains with a witness in Azure, so we can lose a data centre.
-  Cut production over in stages and switched ZooKeeper off.
-- Built the Azure witness properly: CMK-encrypted storage, safe rebuilds and
-  credentials from Vault.
-- Wrote migration scripts with dry-run mode and environment locks, and a safe
-  rolling restart for all 12 brokers.
-- Got the engineering chapter using AI agents. Connected GitHub Copilot to Jira,
-  Bitbucket, CloudBees, ServiceNow, Splunk and Azure. Built a loop where the
-  agent raises the ticket, applies Terraform, checks the result and opens a PR
-  for a human. Used it to build a stretched dual-DC Kafka cluster in one day.
+- Led the ZooKeeper-to-KRaft migration, redesigning the controller quorum
+  across three failure domains using an Azure witness, completing the staged
+  production cutover and retiring ZooKeeper deployment and monitoring.
+- Delivered the Azure witness as durable infrastructure with stable networking,
+  CMK-encrypted persistent metadata, idempotent rebuilds, controller-ID
+  migration and dynamic Vault-backed credentials.
+- Built operational visibility across Grafana, Thanos and Splunk with dual-DC
+  Kafka, KRaft and broker-log dashboards, request-metrics alerts and DLQ
+  monitoring. Used it to diagnose a production replication failure after KRaft
+  patching, restore brokers and Kafka Connect workers, and turn the incident
+  into PIRs and follow-up controls.
+- Made high-risk platform changes repeatable through environment-locked
+  migration automation with dry-run support, plus safe, selective rolling
+  restarts for all 12 brokers.
+- Introduced agentic AI delivery to the engineering chapter: wired 9+
+  enterprise systems (Jira, Bitbucket, CloudBees, ServiceNow, Splunk, Azure)
+  into GitHub Copilot through reusable skills, and built an agent loop that
+  files the ticket, applies Terraform via CloudBees, verifies the result and
+  raises PRs for review. Used it to stand up a stretched dual-DC Kafka cluster
+  in a day.
 
 #### Platform Engineer | June 2021 - May 2025
 
-Kafka migrations and delivery across on-prem OpenShift, AWS and Confluent Cloud.
+Built and operated Kafka migration and delivery capabilities across on-prem
+OpenShift, AWS and Confluent Cloud.
 
-- Moved 20+ teams to new data centres in six months. Built the pipeline, topic
-  placement tooling, runbooks and cutover playbooks.
-- Built the path to Confluent Cloud: EKS over PrivateLink, cluster linking with
-  consumer offset sync, private Schema Registry, BYOK, RBAC and self-service
+- Migrated 20+ internal teams to new data centres over six months, building the
+  deployment pipeline, topic-placement tooling, runbooks and cutover playbooks
+  used from sandpit through production.
+- Delivered the migration platform for selected workloads to Confluent Cloud,
+  connecting AWS EKS over PrivateLink and adding cluster linking with
+  consumer-offset sync, private Schema Registry, BYOK, RBAC and self-service
   onboarding.
-- Wrote BrokerRolla for safe Kafka rolling restarts. Did on-call, ran incidents
-  and postmortems.
+- Built BrokerRolla to automate safe Kafka rolling restarts and supported the
+  platform on call, leading incident response and blameless postmortems.
 
 ### Earlier career
 
-- **Platform Engineer, Fraedom (now Visa) · 2019-2021.** Octopus Deploy release
-  pipelines and PowerShell release automation.
-- **Applications Engineer, HealthLink · 2017-2019.** Health messaging for
-  15,000+ medical organisations across AU/NZ. Wrote WASUP in PowerShell to
-  auto-update 30+ machines.
-- **Applications Engineer, 2degrees · 2012-2017.** 24×7 support for CRM,
-  payments and self-care. Built 30+ ops tools (Oracle, Shell, SOAP) so Customer
-  Care could sort things out without us.
+- **Platform Engineer, Fraedom (now Visa) · 2019-2021.** Built Octopus Deploy
+  pipelines, including an offline-deployment pipeline and a PowerShell module
+  automating release packaging and transfer to production servers.
+- **Applications Engineer, HealthLink · 2017-2019.** Supported core
+  health-messaging services for 15,000+ medical organisations across AU/NZ;
+  built WASUP (PowerShell) to auto-update 30+ machines.
+- **Applications Engineer, 2degrees · 2012-2017.** Ran 24×7 support for CRM,
+  payments and self-care systems; built 30+ "UFO" operations tools (Oracle,
+  Shell, SOAP) that let Customer Care self-serve and cut Operations workload.
