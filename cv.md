@@ -8,24 +8,24 @@ block-headings: true
 
 # Boris Khasanov
 
-**Senior Data Platform Engineer / SRE**
+**Senior Site Reliability Engineer**
 
 [bouresk@outlook.com](mailto:bouresk@outlook.com) |
 [+64 22 171 2798](tel:64221712798) | [borisAsCode.com](https://borisascode.com) |
 Auckland, NZ | NZ citizen
 
-Platform engineer with 14+ years building and running distributed systems
-across cloud and on-prem, most recently in regulated banking. I move legacy,
-hand-built platforms onto managed ones (Kafka to Confluent Cloud, Kong to AKS,
-Akamai to Terraform) and leave behind automation, monitoring, runbooks and a
-clear handover.
+Site reliability engineer with 14+ years in production operations. At ASB I
+work on the bank's public API gateway and Payments NZ certificate controls.
+At Westpac I supported Kafka on call, restored service after a cross-site
+replication failure and built tooling for safe rolling restarts. My cloud
+work includes connecting AWS EKS workloads to Confluent Cloud over PrivateLink.
 
 ## Skills
 
 | Category | Skills |
 |----------------------:|--------------------------------------------------|
 | Data platforms       | Confluent Kafka, Confluent Cloud, KRaft, Kafka Connect, Schema Registry, SQL Server |
-| Cloud & containers   | Azure, AKS, AWS, Kubernetes, OpenShift, Helm, Docker |
+| Cloud & containers   | AWS, EKS, Azure, AKS, Kubernetes, OpenShift, Helm, Docker |
 | Infra as Code        | Terraform, Terraform Enterprise, Terragrunt, Ansible |
 | CI/CD                | Azure DevOps, GitHub Actions, CloudBees/Jenkins, Octopus Deploy, ArgoCD |
 | Observability        | Grafana, Prometheus, Thanos, Elastic, Splunk, Alertmanager, PagerDuty |
@@ -44,28 +44,28 @@ clear handover.
 Platform modernisation, security automation and documentation for ASB's public
 API platform.
 
-- Lead the migration of legacy Kafka from physical hosts in two data centres to
-  Confluent Cloud. Agreed a phased GitOps plan with the Kafka owners and the
-  target platform team: topics, then producers and consumers, then the cluster.
 - Lead the migration of the public-facing Kong Gateway from self-built
   containers on RHEL 7 hosts to the bank's managed Kong on AKS, with Ansible
   runbooks, GitOps, Elastic monitoring, rollback at each step and an audit
   trail.
-- Replaced manual vulnerability patching across Ansible config, RHEL hosts,
-  Qualys sidecars and code scan findings by getting the squad onboarded early
-  to the bank's AKS-hosted AI agents that patch code automatically.
-- Building Terraform modules (network lists, client lists, EdgeWorkers, rules)
-  and a GitHub repository template for Akamai, which 3-4 squads currently
-  manage by hand in the console. Agreed the approach with Security; piloting on
-  Public API before presenting it to the fortnightly Akamai community.
 - Lead ASB's response to Payments NZ CRL revocation checks for client
   certificates: EdgeWorkers enforcement at the edge, plus an interim scheduled
   GitHub Actions control that validates the CRL, matches revoked certificates
   to client records and disables affected clients.
+- Building Terraform modules (network lists, client lists, EdgeWorkers, rules)
+  and a GitHub repository template for Akamai, which 3-4 squads currently
+  manage by hand in the console. Agreed the approach with Security; piloting on
+  Public API before presenting it to the fortnightly Akamai community.
 - Rebuilt the team's documentation from two duplicated, unstructured wikis.
   Recorded handovers with departing senior engineers and turned them into wiki
   pages through a Whisper transcription pipeline, wrote the onboarding guide,
   and introduced blameless postmortems based on Google's template.
+- Lead the migration of legacy Kafka from physical hosts in two data centres to
+  Confluent Cloud. Agreed a phased GitOps plan with the Kafka owners and the
+  target platform team: topics, then producers and consumers, then the cluster.
+- Replaced manual vulnerability patching across Ansible config, RHEL hosts,
+  Qualys sidecars and code scan findings by getting the squad onboarded early
+  to the bank's AKS-hosted AI agents that patch code automatically.
 
 ### Westpac New Zealand
 
