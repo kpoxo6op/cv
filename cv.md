@@ -10,7 +10,7 @@ block-headings: true
 
 **Senior Platform / DevOps / SRE Engineer**
 
-[bouresk@outlook.com](mailto:bouresk@outlook.com) |
+[kpoxo6op@gmail.com](mailto:kpoxo6op@gmail.com) |
 [+64 22 171 2798](tel:64221712798) | [borisAsCode.com](https://borisascode.com) |
 Auckland, NZ | NZ citizen
 
